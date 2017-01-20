@@ -16,7 +16,15 @@ public class Player : MonoBehaviour {
     private Gun m_Gun;
 
     [SerializeField]
-    private float moveSpeed = 2;
+    private float m_MoveSpeed = 2;
+
+    [SerializeField]
+    private float m_ShootSpeed = 5;
+
+    [SerializeField]
+    private float m_FireRate = 0.1f;
+
+    private float m_NextFire = 0;
 
     [SerializeField]
     private Transform m_GunPoint;
@@ -32,33 +40,39 @@ public class Player : MonoBehaviour {
 
     private void HandleRotation() {
 
-        float RightstickX = XCI.GetAxis(XboxAxis.RightStickX, m_XboxController);
-        float RightstickY = XCI.GetAxis(XboxAxis.RightStickY, m_XboxController);
+        float rightstickX = XCI.GetAxis(XboxAxis.RightStickX, m_XboxController);
+        float rightstickY = XCI.GetAxis(XboxAxis.RightStickY, m_XboxController);
 
-        Vector2 Rightstick = new Vector2(RightstickX, RightstickY);
+        Vector2 rightstick = new Vector2(rightstickX, rightstickY);
 
-        if (Rightstick.magnitude > 0.1)
+        if (rightstick.magnitude > 0.1)
         {
-            float angle = Mathf.Atan2(RightstickY, RightstickX) * 57.297f;
+            float angle = Mathf.Atan2(rightstickY, rightstickX) * 57.297f;
             m_GunPoint.localEulerAngles = new Vector3(0, 90 - angle, 0);
         }
     }
 
     private void HandleMovement() {
-        float LeftStickX = XCI.GetAxis(XboxAxis.LeftStickX, m_XboxController);
-        float LeftStickY = XCI.GetAxis(XboxAxis.LeftStickY, m_XboxController);
+        float leftStickX = XCI.GetAxis(XboxAxis.LeftStickX, m_XboxController);
+        float leftStickY = XCI.GetAxis(XboxAxis.LeftStickY, m_XboxController);
 
-        Vector3 moveInput = new Vector3(LeftStickX, 0, LeftStickY);
-        Vector3 moveVelocity = moveInput.normalized * moveSpeed;
+        Vector3 moveInput = new Vector3(leftStickX, 0, leftStickY);
+        Vector3 moveVelocity = moveInput.normalized * m_MoveSpeed;
 
         m_PlayerController.Move(moveVelocity);
     }
 
     private void HandleShooting() {
 
-        if (XCI.GetButtonDown(XboxButton.LeftBumper, m_XboxController) || XCI.GetButtonDown(XboxButton.RightBumper, m_XboxController))
-        {
-            m_Gun.Shoot(6000);
+        if (m_NextFire < Time.time) {
+
+            float leftTrigger = XCI.GetAxis(XboxAxis.LeftTrigger, m_XboxController);
+            float rightTrigger = XCI.GetAxis(XboxAxis.RightTrigger, m_XboxController);
+
+            if ((leftTrigger > 0.1f) || (rightTrigger > 0.1f)) {
+                m_Gun.Shoot(m_ShootSpeed);
+                m_NextFire = Time.time + m_FireRate;
+            }
         }
     }
 

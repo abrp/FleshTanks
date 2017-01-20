@@ -12,9 +12,12 @@ public class Projectile : MonoBehaviour {
     public ParticleSystem smoke;
     public ParticleSystem lesserSmoke;
 
-    float speed = 550;
-    float spread = 1;
-    float skin = .4f;
+    private Vector3 m_ForwardDirection;
+
+    private float m_Speed = 1;
+
+    float skin = 0.8f;
+
     public LayerMask collisionMask;
 
     public Rigidbody RigidBody {
@@ -27,7 +30,53 @@ public class Projectile : MonoBehaviour {
 
     private void CheckCollision()
     {
-        RaycastHit2D[] hit = {
+
+        RaycastHit hit;
+
+        Debug.DrawRay(transform.position, m_ForwardDirection, Color.red);
+        Debug.DrawRay(transform.position, -m_ForwardDirection, Color.red);
+        Debug.DrawRay(transform.position, Vector3.left, Color.red);
+        Debug.DrawRay(transform.position, Vector3.right, Color.red);
+        Debug.DrawRay(transform.position, Vector3.up, Color.red);
+        Debug.DrawRay(transform.position, Vector3.down, Color.red);
+
+        bool hitsomething = false;
+
+        if (Physics.Raycast(transform.position, m_ForwardDirection, out hit, skin, collisionMask))
+        {
+            hitsomething = true;
+        }
+
+        else if (Physics.Raycast(transform.position, -m_ForwardDirection, out hit, skin, collisionMask))
+        {
+            hitsomething = true;
+        }
+        else if (Physics.Raycast(transform.position, transform.up, out hit, skin, collisionMask))
+        {
+            hitsomething = true;
+        }
+        else if (Physics.Raycast(transform.position, transform.right, out hit, skin, collisionMask))
+        {
+            hitsomething = true;
+        }
+        else if (Physics.Raycast(transform.position, transform.forward, out hit, skin, collisionMask))
+        {
+            hitsomething = true;
+        }
+        else if (Physics.Raycast(transform.position, -transform.forward, out hit, skin, collisionMask))
+        {
+            hitsomething = true;
+        }
+
+        if (hitsomething) {
+            PlayExplosions();
+
+
+
+            Destroy(gameObject);
+        }
+
+        /*RaycastHit2D[] hit = {
             Physics2D.Raycast (transform.localPosition, Vector2.left, skin, collisionMask),
             Physics2D.Raycast (transform.localPosition, Vector2.down, skin, collisionMask),
             Physics2D.Raycast (transform.localPosition, Vector2.left, skin, collisionMask),
@@ -47,14 +96,25 @@ public class Projectile : MonoBehaviour {
                 PlayExplosions();
 
             }
-        }
+        }*/
     }
 
-    private void Update() {
-        //CheckCollision();
+    public void SetDirection(Vector3 direction) {
+        m_ForwardDirection = direction;
     }
 
-    private void OnTriggerStay(Collider other) {
+    public void SetSpeed(float speed) {
+        m_Speed = speed;
+    }
+
+    private void FixedUpdate() {
+        float moveDistance = Time.deltaTime * m_Speed;
+        //Vector3 moveDirection = transform.forward;
+        transform.Translate(m_ForwardDirection * moveDistance);
+        CheckCollision();
+    }
+
+    /*private void OnTriggerStay(Collider other) {
  
         if (other.GetComponent<Wall>()) {
             PlayExplosions();
@@ -67,7 +127,7 @@ public class Projectile : MonoBehaviour {
             Destroy(gameObject);
 
         }
-    }
+    }*/
 
     private void PlayExplosions() {
         int chanceForExplosion = Random.Range(0, 5);

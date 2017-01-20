@@ -126,4 +126,4 @@ MonoBehaviour:
   lesserSmoke: {fileID: 19803730, guid: 14fb59bc5a1b60846aecbd513d519d4d, type: 2}
   collisionMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 768

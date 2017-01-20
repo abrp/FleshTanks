@@ -76,7 +76,6 @@ GameObject:
   - component: {fileID: 20416939475192106}
   - component: {fileID: 124999561324451368}
   - component: {fileID: 92727310211180982}
-  - component: {fileID: 81173731867926224}
   - component: {fileID: 114342825738514238}
   m_Layer: 0
   m_Name: CloseUpCam 1
@@ -96,7 +95,6 @@ GameObject:
   - component: {fileID: 20431239462790182}
   - component: {fileID: 124680675859146554}
   - component: {fileID: 92660120023703076}
-  - component: {fileID: 81187967664907026}
   - component: {fileID: 114892353141278886}
   m_Layer: 0
   m_Name: CloseUpCam 2
@@ -134,7 +132,6 @@ GameObject:
   - component: {fileID: 20797976502056142}
   - component: {fileID: 124073344259810818}
   - component: {fileID: 92244256395130236}
-  - component: {fileID: 81503467361754978}
   - component: {fileID: 114697339902970660}
   m_Layer: 0
   m_Name: CloseUpCam 3
@@ -154,7 +151,6 @@ GameObject:
   - component: {fileID: 20637916539911660}
   - component: {fileID: 124853528256289156}
   - component: {fileID: 92756118166942686}
-  - component: {fileID: 81833026820666010}
   - component: {fileID: 114190816875323784}
   m_Layer: 0
   m_Name: CloseUpCam 4
@@ -184,13 +180,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1351085509638492}
-  m_LocalRotation: {x: 0.6970898, y: 0.016817026, z: -0.017732147, w: 0.7165672}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.1247194, y: -0.18968728, z: 0.9735879, w: -0.024299486}
+  m_LocalPosition: {x: -10.930752, y: 4.05, z: -12.784216}
   m_LocalScale: {x: 1, y: -11.399998, z: 1}
   m_Children: []
   m_Father: {fileID: 4558974215487154}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 88.42, y: -1.29, z: -4.09}
+  m_LocalEulerAnglesHint: {x: 157.95, y: -194.6, z: 0}
 --- !u!4 &4060711370043366
 Transform:
   m_ObjectHideFlags: 1
@@ -224,7 +220,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1854658065858184}
   m_LocalRotation: {x: 0.6970898, y: 0.016817026, z: -0.017732147, w: 0.7165672}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -10.930752, y: 4.05, z: -12.784216}
   m_LocalScale: {x: 1, y: -11.399998, z: 0.9999999}
   m_Children: []
   m_Father: {fileID: 4558974215487154}
@@ -237,7 +233,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1563718284575542}
   m_LocalRotation: {x: 0.6970898, y: 0.016817026, z: -0.017732147, w: 0.7165672}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -10.930752, y: 4.05, z: -12.784216}
   m_LocalScale: {x: 1, y: -11.399998, z: 0.9999999}
   m_Children: []
   m_Father: {fileID: 4558974215487154}
@@ -250,7 +246,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1947313992365708}
   m_LocalRotation: {x: 0.6970898, y: 0.016817026, z: -0.017732147, w: 0.7165672}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -10.930752, y: 4.05, z: -12.784216}
   m_LocalScale: {x: 1, y: -11.399998, z: 0.9999999}
   m_Children: []
   m_Father: {fileID: 4558974215487154}
@@ -639,34 +635,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!81 &81173731867926224
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1351085509638492}
-  m_Enabled: 1
---- !u!81 &81187967664907026
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1563718284575542}
-  m_Enabled: 1
---- !u!81 &81503467361754978
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1854658065858184}
-  m_Enabled: 1
---- !u!81 &81833026820666010
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1947313992365708}
-  m_Enabled: 1
 --- !u!92 &92244256395130236
 Behaviour:
   m_ObjectHideFlags: 1

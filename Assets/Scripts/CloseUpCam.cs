@@ -9,11 +9,12 @@ public class CloseUpCam : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        transform.SetParent(m_CameraPosition);
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        transform.position = m_CameraPosition.position;
+
+    }
 }
