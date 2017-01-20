@@ -15,8 +15,7 @@ public class Gun : MonoBehaviour {
 
     public void Shoot(float force) {
         Projectile p = Instantiate(m_Projectile, m_MuzzlePoint.position, Quaternion.identity);
-        ParticleSystem muzzle = Instantiate(m_MuzzleFlash, m_MuzzlePoint.position, Quaternion.identity);
-        Destroy(muzzle, 0.1f);
+        ParticleManager.instance.InstantiateParticleSystem(m_MuzzleFlash, m_MuzzlePoint.position);
         p.GetComponent<Rigidbody>().AddForce(m_MuzzlePoint.forward * force);
 
 

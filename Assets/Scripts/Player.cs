@@ -58,7 +58,7 @@ public class Player : MonoBehaviour {
 
         if (XCI.GetButtonDown(XboxButton.LeftBumper, m_XboxController) || XCI.GetButtonDown(XboxButton.RightBumper, m_XboxController))
         {
-            m_Gun.Shoot(5000);
+            m_Gun.Shoot(6000);
         }
     }
 

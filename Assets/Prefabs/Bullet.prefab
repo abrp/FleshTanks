@@ -19,11 +19,11 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4353804474171504}
-  - component: {fileID: 33696337575722580}
   - component: {fileID: 65748674512949310}
-  - component: {fileID: 23497104866142108}
   - component: {fileID: 54780906182963320}
-  - component: {fileID: 114355471065340850}
+  - component: {fileID: 33290269607236666}
+  - component: {fileID: 23074839257281698}
+  - component: {fileID: 114716189857327978}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -37,14 +37,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1968940488514726}
-  m_LocalRotation: {x: 0, y: 0.015183804, z: 0, w: 0.9998847}
-  m_LocalPosition: {x: 0.05, y: 1.2, z: 1.8}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.05, y: 1.2, z: 3.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 1.74, z: 0}
---- !u!23 &23497104866142108
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!23 &23074839257281698
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -57,7 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 8465874b60437644d8e2290cd81c3d59, type: 2}
+  - {fileID: 2100000, guid: 6b8c20ea4fbab9440b1d1cf19fb8c0f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -65,7 +65,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
+  m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -75,13 +75,13 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!33 &33696337575722580
+--- !u!33 &33290269607236666
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1968940488514726}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &54780906182963320
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -109,7 +109,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114355471065340850
+--- !u!114 &114716189857327978
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -120,3 +120,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12a234f0c8b6e64287a3438b94115f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: 19845816, guid: 715e2d922bcd0f24f89667e1c1475134, type: 2}
+  normalHit: {fileID: 19856480, guid: f664589af3eb4be408d0faaf483b77b1, type: 2}
+  smoke: {fileID: 19803730, guid: 485a5087e5c6b324880b4994a867cb64, type: 2}
+  lesserSmoke: {fileID: 19803730, guid: 14fb59bc5a1b60846aecbd513d519d4d, type: 2}
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 0

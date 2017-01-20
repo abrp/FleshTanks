@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114865728604275774}
   - component: {fileID: 54359804581943330}
   - component: {fileID: 114128321592132640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4772215433407116}
   - component: {fileID: 114648166908253088}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 33985208072185548}
   - component: {fileID: 65466875063257762}
   - component: {fileID: 23642453058906044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GunGraphics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4942159179601840}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MuzzlePoint
   m_TagString: Untagged
   m_Icon: {fileID: 7707008975528953803, guid: 0000000000000000d000000000000000, type: 0}
@@ -89,7 +89,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4978191733576736}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GunPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa92901634bb61943b7b51884c05110b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Projectile: {fileID: 114355471065340850, guid: 7ec117801589ca84e9e565d2c5ef47d3,
+  m_Projectile: {fileID: 114716189857327978, guid: 7ec117801589ca84e9e565d2c5ef47d3,
     type: 2}
   m_MuzzlePoint: {fileID: 4942159179601840}
   m_MuzzleFlash: {fileID: 19856480, guid: ed9f78f3c307a1b4eabed97ce647125c, type: 2}
