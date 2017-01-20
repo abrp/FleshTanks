@@ -129,7 +129,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1114264945176862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: -11.3, y: 1, z: -11.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4978191733576736}
@@ -143,7 +143,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1741236533468570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.26, z: 0.98}
+  m_LocalPosition: {x: 0, y: -0.26, z: 1.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4978191733576736}
@@ -305,6 +305,7 @@ MonoBehaviour:
   m_Projectile: {fileID: 114355471065340850, guid: 7ec117801589ca84e9e565d2c5ef47d3,
     type: 2}
   m_MuzzlePoint: {fileID: 4942159179601840}
+  m_MuzzleFlash: {fileID: 19856480, guid: ed9f78f3c307a1b4eabed97ce647125c, type: 2}
 --- !u!114 &114865728604275774
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -316,7 +317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cabf5141e3a66749a042c754e830e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_XboxController: 1
+  m_XboxController: 0
   m_Gun: {fileID: 114648166908253088}
   moveSpeed: 16
   m_GunPoint: {fileID: 4978191733576736}
