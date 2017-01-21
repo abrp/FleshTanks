@@ -11,7 +11,10 @@ public class CameraOnRail : MonoBehaviour {
     private float m_maxDistance = 0.1f;
 
     [SerializeField]
-    private float m_deltaDistance = 0.5f;
+    private float m_translateSpeed = 4f;
+
+    [SerializeField]
+    private float m_rotateSpeed = 20f;
 
     private int m_currentRailPoint = 0;
 
@@ -25,20 +28,25 @@ public class CameraOnRail : MonoBehaviour {
         if(m_currentRailPoint < m_railPoints.Length ) {
             Transform next = m_railPoints[m_currentRailPoint];
             float distance = Vector3.Distance(
-                    new Vector3(this.transform.position.x,this.transform.position.y,this.transform.position.z),
+                    new Vector3(     transform.position.x,     transform.position.y,     transform.position.z),
                     new Vector3(next.transform.position.x,next.transform.position.y,next.transform.position.z)
                 );
-            Debug.Log("distance = " + distance + " m_currentRailPoint = " + m_currentRailPoint);
+            // Debug.Log("distance = " + distance + " m_currentRailPoint = " + m_currentRailPoint);
             if (distance > m_maxDistance) { 
-                this.transform.position = Vector3.MoveTowards(
+                transform.position = Vector3.MoveTowards(
                         this.transform.position,
                         next.transform.position,
-                        m_maxDistance * m_deltaDistance
+                        m_translateSpeed * Time.deltaTime
                 );
+                transform.rotation = Quaternion.RotateTowards(transform.rotation, next.rotation, m_rotateSpeed * Time.deltaTime);
             }
             else
             {
                 m_currentRailPoint++;
+                if(m_currentRailPoint >= m_railPoints.Length)
+                {
+                    m_currentRailPoint = 0;
+                }
             }
         }
 
