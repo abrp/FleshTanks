@@ -16,7 +16,10 @@ public class PlayerManager : MonoBehaviour {
     private bool[] m_PlayerInPlay = new bool[4];
 
     [SerializeField]
-    private Player m_PlayersPrefab; 
+    private Player m_PlayersPrefab;
+
+    [SerializeField]
+    private ParticleSystem m_SpawnParticleSystem;
 
     [SerializeField]
     private SpawnPoint[] m_SpawnPoints;
@@ -31,6 +34,13 @@ public class PlayerManager : MonoBehaviour {
     private float m_FireRate = 0.1f;
 
     private int m_CurrentSpawnIndex;
+
+    //==============================================================================
+    // Delegates
+    //==============================================================================
+
+    public delegate void PlayerManagerEventHandler();
+    public PlayerManagerEventHandler onInstantiatePlayerCallBack;
 
     //==============================================================================
     public void Awake()
@@ -90,17 +100,23 @@ public class PlayerManager : MonoBehaviour {
     //==============================================================================
 
     private void InstantiatePlayer(XboxController controller) {
-        Player p = Instantiate(m_PlayersPrefab, m_SpawnPoints[m_CurrentSpawnIndex].transform.position, Quaternion.identity);
+        Player p = Instantiate(m_PlayersPrefab, GetSpawnPosition(), Quaternion.identity);
         p.SetController(controller);
         p.SetShootSpeed(m_ShootSpeed);
         p.SetMoveSpeed(m_MoveSpeed);
         p.SetFireRate(m_FireRate);
         p.SetPlayerColor();
-        IncrementSpawnIndex();
+
+        // game state changed
+        if (onInstantiatePlayerCallBack != null)
+        {
+            onInstantiatePlayerCallBack();
+        }
     }
 
     public Vector3 GetSpawnPosition() {
         Vector3 position = m_SpawnPoints[m_CurrentSpawnIndex].transform.position;
+        ParticleManager.instance.InstantiateParticleSystem(m_SpawnParticleSystem, position);
         IncrementSpawnIndex();
         return position;
     }
