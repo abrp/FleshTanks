@@ -42,5 +42,6 @@ public class PlayerFlesh : MonoBehaviour {
         m_Collder.enabled = false;
         m_SkinnedMesh.enabled = false;
         m_HasFlesh = false;
+        m_Player.RemovePiece();
     }
 }

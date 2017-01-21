@@ -53,7 +53,9 @@ public class Player : CustomMonobehavior {
 
     private PlayerFlesh[] m_PlayerFlesh;
 
-    private bool m_IsRespawning = false;
+    private int m_PiecesOfFlesh;
+
+    private bool m_CanRespawn = false;
 
     //==============================================================================
     // MonoBehaviour
@@ -63,10 +65,10 @@ public class Player : CustomMonobehavior {
         m_PlayerController = GetComponent<PlayerController>();
         m_PlayerStartPosition = transform.position;
         m_PlayerFlesh = GetComponentsInChildren<PlayerFlesh>();
-
-        for (int i = 0; i < m_PlayerFlesh.length; i++)
+        m_PiecesOfFlesh = m_PlayerFlesh.Length;
+        for (int i = 0; i < m_PlayerFlesh.Length; i++)
         {
-
+            m_PlayerFlesh[i].SetPlayerReference(this);
         }
     }
 
@@ -100,6 +102,13 @@ public class Player : CustomMonobehavior {
 
     public void SetPlayerColor() {
 
+    }
+
+    public void RemovePiece() {
+        m_PiecesOfFlesh--;
+        if (m_PiecesOfFlesh == 0) {
+            Die();
+        }
     }
 
     //==============================================================================
@@ -144,11 +153,14 @@ public class Player : CustomMonobehavior {
 
     //==============================================================================
     private void HandleRespawn() {
-        if (!m_IsRespawning) { 
             if (XCI.GetButtonDown(XboxButton.A, m_XboxController)) {
-                StartCoroutine(StartRespawn());
+                Respawn();
             }
-        }
+    }
+
+    private void Respawn() {
+
+        transform.position = PlayerManager.instance.GetSpawnPosition();
     }
 
     //==============================================================================
@@ -197,7 +209,7 @@ public class Player : CustomMonobehavior {
             HandleRotation();
             HandleShooting();
         }
-        else {
+        else if(m_CanRespawn) {
             HandleRespawn();
         }
     }
@@ -209,6 +221,7 @@ public class Player : CustomMonobehavior {
     public void Die() {
         HidePlayer();
         m_IsAlive = false;
+        StartCoroutine(StartRespawn());
     }
 
     //==============================================================================
@@ -216,17 +229,15 @@ public class Player : CustomMonobehavior {
     //==============================================================================
 
     IEnumerator StartRespawn() {
-        m_IsRespawning = true;
+        m_CanRespawn = false;
         yield return null;
 
         yield return new WaitForSeconds(m_RespawnTime);
 
-        transform.position = PlayerManager.instance.GetSpawnPosition();
-
         // spawn some particles here
 
-        m_IsRespawning = false;
-        m_IsAlive = true;
+        m_CanRespawn = true;
+        
 
     }
 }
