@@ -60,6 +60,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  m_MoveSpeed: 16
+  m_MoveSpeed: 8
   m_ShootSpeed: 55
   m_FireRate: 0.1

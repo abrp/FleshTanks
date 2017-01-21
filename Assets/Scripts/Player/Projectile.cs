@@ -55,6 +55,7 @@ public class Projectile : MonoBehaviour {
         else if (Physics.Raycast(transform.position, -m_ForwardDirection, out hit, skin, collisionMask))
         {
             hitsomething = true;
+           
         }
         else if (Physics.Raycast(transform.position, transform.up, out hit, skin, collisionMask))
         {
@@ -75,10 +76,12 @@ public class Projectile : MonoBehaviour {
 
         if (hitsomething) {
             PlayExplosions();
-
-
-
             Destroy(gameObject);
+            //Debug.Log(hit.collider.gameObject.layer);
+            if (hit.collider.GetComponent<PlayerFlesh>()) {
+                PlayerFlesh playerFlesh = hit.collider.GetComponent<PlayerFlesh>();
+                playerFlesh.RemoveFlesh();
+            }
         }
 
         /*RaycastHit2D[] hit = {
