@@ -167,11 +167,6 @@ public class Player : CustomMonobehavior {
     // public
     //==============================================================================
 
-    public void Respawn() {
-
-        transform.position = m_PlayerStartPosition;
-    }
-
     public void Die() {
         HidePlayer();
         m_IsAlive = false;

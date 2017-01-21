@@ -53,6 +53,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlayersPrefab: {fileID: 114865728604275774, guid: 01c4011ea6208304f9e98905b52f1330,
     type: 2}
+  m_SpawnParticleSystem: {fileID: 198894315377987126, guid: 41eaa383865890f4898106bd8af36fa4,
+    type: 2}
   m_SpawnPoints:
   - {fileID: 0}
   - {fileID: 0}
