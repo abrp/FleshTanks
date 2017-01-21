@@ -19,6 +19,11 @@ public class PlayerFlesh : MonoBehaviour {
 
     private Player m_Player;
 
+    public Player Owner
+    {
+        get { return m_Player; }
+    }
+
     //==============================================================================
     // MonoBehaviour
     //==============================================================================
@@ -43,5 +48,11 @@ public class PlayerFlesh : MonoBehaviour {
         m_SkinnedMesh.enabled = false;
         m_HasFlesh = false;
         m_Player.RemovePiece();
+    }
+
+    public void ReFlesh() {
+        m_Collder.enabled = true;
+        m_SkinnedMesh.enabled = true;
+        m_HasFlesh = true;
     }
 }

@@ -22,11 +22,12 @@ public class Gun : MonoBehaviour {
     [SerializeField]
     
 
-    public void Shoot(float force) {
+    public void Shoot(float force, Player player) {
         Projectile p = Instantiate(m_Projectile, m_MuzzlePoint.position, Quaternion.identity);
         //p.transform.rotation = m_GunPoint.rotation;
         p.SetProjectileRotation(m_MuzzlePoint.rotation);
         p.SetDirection(m_MuzzlePoint.forward);
+        p.SetOwner(player);
         p.SetSpeed(force);
         ParticleManager.instance.InstantiateParticleSystem(m_MuzzleFlash, m_MuzzlePoint.position);
         SoundManager.instance.PlaySound(m_ShootSound);

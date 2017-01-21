@@ -8,7 +8,10 @@ public class KillZone : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) {
         if (other.GetComponent<Player>()) {
-            other.GetComponent<Player>().Die();
+            Player player = GetComponent<Player>();
+            if (player.IsAlive) { 
+                other.GetComponent<Player>().Die();
+            }
         }
     }
 }
