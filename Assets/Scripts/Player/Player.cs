@@ -16,6 +16,9 @@ public class Player : CustomMonobehavior {
     private PlayerController m_PlayerController;
 
     [SerializeField]
+    private int m_RespawnTime = 3;
+
+    [SerializeField]
     private Gun m_Gun;
 
     [SerializeField]
@@ -38,6 +41,8 @@ public class Player : CustomMonobehavior {
 
     private MeshRenderer[] meshRenderes;
 
+    private bool m_IsRespawning = false;
+
     //==============================================================================
     // MonoBehaviour
     //==============================================================================
@@ -52,14 +57,34 @@ public class Player : CustomMonobehavior {
     //==============================================================================
 
     private void HidePlayer() {
-
+        Vector3 hidePosition = new Vector3(0, -5, 0);
+        transform.position = hidePosition;
     }
 
-    private void ShowPlayer()
+    //==============================================================================
+    public void SetController(XboxController controller) {
+        m_XboxController = controller;
+    }
+
+    public void SetMoveSpeed(float f) {
+        m_MoveSpeed = f;
+    }
+
+    public void SetShootSpeed(float f)
     {
+        m_ShootSpeed = f;
+    }
+
+    public void SetFireRate(float f)
+    {
+        m_FireRate = f;
+    }
+
+    public void SetPlayerColor() {
 
     }
 
+    //==============================================================================
     private void HandleRotation() {
 
         float rightstickX = XCI.GetAxis(XboxAxis.RightStickX, m_XboxController);
@@ -74,6 +99,7 @@ public class Player : CustomMonobehavior {
         }
     }
 
+    //==============================================================================
     private void HandleMovement() {
         float leftStickX = XCI.GetAxis(XboxAxis.LeftStickX, m_XboxController);
         float leftStickY = XCI.GetAxis(XboxAxis.LeftStickY, m_XboxController);
@@ -84,6 +110,16 @@ public class Player : CustomMonobehavior {
         m_PlayerController.Move(moveVelocity);
     }
 
+    //==============================================================================
+    private void HandleRespawn() {
+        if (!m_IsRespawning) { 
+            if (XCI.GetButtonDown(XboxButton.A, m_XboxController)) {
+                StartCoroutine(StartRespawn());
+            }
+        }
+    }
+
+    //==============================================================================
     private void HandleShooting() {
 
         if (m_NextFire < Time.time) {
@@ -98,6 +134,7 @@ public class Player : CustomMonobehavior {
         }
     }
 
+    //==============================================================================
     private void Handle() {
 
     }
@@ -109,19 +146,20 @@ public class Player : CustomMonobehavior {
     protected override void PreLoop()
     {
         base.PreLoop();
-        Debug.Log("preloop");
-
     }
 
     protected override void GameLoop()
     {
         base.GameLoop();
-        Debug.Log("gameloop");
+
         if (m_IsAlive)
         {
             HandleMovement();
             HandleRotation();
             HandleShooting();
+        }
+        else {
+            HandleRespawn();
         }
     }
 
@@ -134,11 +172,27 @@ public class Player : CustomMonobehavior {
         transform.position = m_PlayerStartPosition;
     }
 
+    public void Die() {
+        HidePlayer();
+        m_IsAlive = false;
+    }
+
     //==============================================================================
     // IEnumerator
     //==============================================================================
 
     IEnumerator StartRespawn() {
+        m_IsRespawning = true;
         yield return null;
+
+        yield return new WaitForSeconds(m_RespawnTime);
+
+        transform.position = PlayerManager.instance.GetSpawnPosition();
+
+        // spawn some particles here
+
+        m_IsRespawning = false;
+        m_IsAlive = true;
+
     }
 }

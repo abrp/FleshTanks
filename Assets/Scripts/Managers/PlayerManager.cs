@@ -21,12 +21,22 @@ public class PlayerManager : MonoBehaviour {
     [SerializeField]
     private SpawnPoint[] m_SpawnPoints;
 
+    [SerializeField]
+    private float m_MoveSpeed = 2;
+
+    [SerializeField]
+    private float m_ShootSpeed = 5;
+
+    [SerializeField]
+    private float m_FireRate = 0.1f;
+
+    private int m_CurrentSpawnIndex;
+
     //==============================================================================
     public void Awake()
     {
         SetupSingleton();
     }
-
 
     //==============================================================================
     // Singleton
@@ -48,23 +58,30 @@ public class PlayerManager : MonoBehaviour {
         CheckSpawnInput();
     }
 
-
     //==============================================================================
     // private
     //==============================================================================
 
     private void CheckSpawnInput(){
         if (XCI.GetButtonDown(XboxButton.A, XboxController.First) && m_PlayerInPlay[0] == false) {
-
+            Debug.Log("Spawn Player 1");
+            m_PlayerInPlay[0] = true;
+            InstantiatePlayer(XboxController.First);
         }
         if (XCI.GetButtonDown(XboxButton.A, XboxController.Second ) && m_PlayerInPlay[1] == false){
-
+            Debug.Log("Spawn Player 2");
+            m_PlayerInPlay[1] = true;
+            InstantiatePlayer(XboxController.Second);
         }
         if (XCI.GetButtonDown(XboxButton.A, XboxController.Third) && m_PlayerInPlay[2] == false){
-
+            Debug.Log("Spawn Player 3");
+            m_PlayerInPlay[2] = true;
+            InstantiatePlayer(XboxController.Third);
         }
         if (XCI.GetButtonDown(XboxButton.A, XboxController.Fourth) && m_PlayerInPlay[3] == false){
-
+            Debug.Log("Spawn Player 4");
+            m_PlayerInPlay[3] = true;
+            InstantiatePlayer(XboxController.Fourth);
         }
     }
 
@@ -72,12 +89,27 @@ public class PlayerManager : MonoBehaviour {
     // private
     //==============================================================================
 
-    private void InstantiatePlayer() {
+    private void InstantiatePlayer(XboxController controller) {
+        Player p = Instantiate(m_PlayersPrefab, m_SpawnPoints[m_CurrentSpawnIndex].transform.position, Quaternion.identity);
+        p.SetController(controller);
+        p.SetShootSpeed(m_ShootSpeed);
+        p.SetMoveSpeed(m_MoveSpeed);
+        p.SetFireRate(m_FireRate);
+        p.SetPlayerColor();
+        IncrementSpawnIndex();
+    }
 
+    public Vector3 GetSpawnPosition() {
+        Vector3 position = m_SpawnPoints[m_CurrentSpawnIndex].transform.position;
+        IncrementSpawnIndex();
+        return position;
     }
 
     //==============================================================================
-    private void SpawnPlayer() {
-
+    private void IncrementSpawnIndex() {
+        m_CurrentSpawnIndex++;
+        if (m_CurrentSpawnIndex > m_SpawnPoints.Length - 1) {
+            m_CurrentSpawnIndex = 0;
+        }
     }
 }
