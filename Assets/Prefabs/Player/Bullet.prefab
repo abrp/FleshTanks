@@ -124,6 +124,8 @@ MonoBehaviour:
   normalHit: {fileID: 19856480, guid: f664589af3eb4be408d0faaf483b77b1, type: 2}
   smoke: {fileID: 19803730, guid: 485a5087e5c6b324880b4994a867cb64, type: 2}
   lesserSmoke: {fileID: 19803730, guid: 14fb59bc5a1b60846aecbd513d519d4d, type: 2}
+  m_NormalHitSound: {fileID: 8300000, guid: 4020ff31f6b352142b0427784824e4e1, type: 3}
+  m_ExplosionHitSound: {fileID: 8300000, guid: 4ea8651341b102640969f797598edc04, type: 3}
   collisionMask:
     serializedVersion: 2
     m_Bits: 768

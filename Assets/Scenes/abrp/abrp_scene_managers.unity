@@ -1450,6 +1450,7 @@ GameObject:
   - component: {fileID: 421741024}
   - component: {fileID: 421741023}
   - component: {fileID: 421741022}
+  - component: {fileID: 421741027}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -1525,6 +1526,17 @@ Transform:
   m_Father: {fileID: 856479815}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &421741027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 421741021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f774850d973cd419c9c7ff3429006e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &470386511
 GameObject:
   m_ObjectHideFlags: 0
@@ -3561,7 +3573,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 856479815}
-  - component: {fileID: 856479816}
+  - component: {fileID: 856479817}
+  - component: {fileID: 856479818}
   m_Layer: 0
   m_Name: '[Camera]'
   m_TagString: Untagged
@@ -3584,7 +3597,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &856479816
+--- !u!95 &856479817
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 856479814}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5ff90051e2b9ca04f8e5b0ad04732cb4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &856479818
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -3592,7 +3622,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 856479814}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51f774850d973cd419c9c7ff3429006e, type: 3}
+  m_Script: {fileID: 11500000, guid: 8cc9127bfc62ae7468774e13d3f9ec86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &897966079
@@ -5304,6 +5334,11 @@ Prefab:
     - target: {fileID: 4137076724967728, guid: 2e5f74cc178875d4d86bf8eb7296736e, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114346592518879930, guid: 2e5f74cc178875d4d86bf8eb7296736e,
+        type: 2}
+      propertyPath: m_NumberOfAudioSources
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e5f74cc178875d4d86bf8eb7296736e, type: 2}

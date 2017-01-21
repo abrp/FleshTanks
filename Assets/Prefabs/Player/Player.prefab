@@ -336,6 +336,7 @@ MonoBehaviour:
   m_GunPoint: {fileID: 4978191733576736}
   m_MuzzlePoint: {fileID: 4942159179601840}
   m_MuzzleFlash: {fileID: 19856480, guid: ed9f78f3c307a1b4eabed97ce647125c, type: 2}
+  m_ShootSound: {fileID: 8300000, guid: eff3770f3e216f64982306ed8d8c9144, type: 3}
 --- !u!114 &114865728604275774
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -348,6 +349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_XboxController: 0
+  m_RespawnTime: 3
   m_Gun: {fileID: 114648166908253088}
   m_MoveSpeed: 8
   m_ShootSpeed: 50

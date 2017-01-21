@@ -12,6 +12,11 @@ public class Projectile : MonoBehaviour {
     public ParticleSystem smoke;
     public ParticleSystem lesserSmoke;
 
+    [SerializeField]
+    private AudioClip m_NormalHitSound;
+    [SerializeField]
+    private AudioClip m_ExplosionHitSound;
+
     private Vector3 m_ForwardDirection;
 
     private float m_Speed = 1;
@@ -136,13 +141,16 @@ public class Projectile : MonoBehaviour {
            
             ParticleManager.instance.InstantiateParticleSystem(explosion, transform.position);
             ParticleManager.instance.InstantiateParticleSystem(smoke, transform.position);
-            //cameraAnimation.PlayLargeShake();
+            SoundManager.instance.PlaySound(m_ExplosionHitSound);
+            CameraAnimationShaker.instance.PlayLargeShake();
             //soundManager.PlayExplosionSoundSound();*/
         }
         else
         {
             ParticleManager.instance.InstantiateParticleSystem(normalHit, transform.position);
             ParticleManager.instance.InstantiateParticleSystem(lesserSmoke, transform.position);
+            CameraAnimationShaker.instance.PlayGentleShake();
+            SoundManager.instance.PlaySound(m_NormalHitSound);
             //soundManager.PlayNormalHitSoundSound();*/
         }
         

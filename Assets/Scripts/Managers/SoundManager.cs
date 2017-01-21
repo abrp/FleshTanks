@@ -5,9 +5,12 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
 
+
     //==============================================================================
     // Fields
     //==============================================================================
+
+    public static SoundManager instance = null;
 
     [SerializeField]
     private int m_NumberOfAudioSources = 15;
@@ -19,6 +22,20 @@ public class SoundManager : MonoBehaviour
     //==============================================================================
     // MonoBehavours
     //==============================================================================
+
+    //==============================================================================
+    public void Awake()
+    {
+        SetupSingleton();
+    }
+
+    private void SetupSingleton()
+    {
+        if (instance == null)
+            instance = this;
+        else if (instance != this)
+            Destroy(gameObject);
+    }
 
     //==============================================================================
     private void Start()
