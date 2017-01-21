@@ -16,101 +16,101 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 4900538285829396}
-  - component: {fileID: 33976744556043544}
-  - component: {fileID: 65710836915561376}
-  - component: {fileID: 23149659509876002}
-  - component: {fileID: 114865728604275774}
-  - component: {fileID: 54359804581943330}
-  - component: {fileID: 114128321592132640}
+  - 4: {fileID: 4900538285829396}
+  - 33: {fileID: 33976744556043544}
+  - 65: {fileID: 65710836915561376}
+  - 23: {fileID: 23149659509876002}
+  - 114: {fileID: 114865728604275774}
+  - 54: {fileID: 54359804581943330}
+  - 114: {fileID: 114128321592132640}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1206332822265346
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 4608767476931828}
+  - 4: {fileID: 4608767476931828}
   m_Layer: 8
-  m_Name: CameraPoint
+  m_Name: 
   m_TagString: Untagged
-  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1409952233519372
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 4772215433407116}
-  - component: {fileID: 114648166908253088}
+  - 4: {fileID: 4772215433407116}
+  - 114: {fileID: 114648166908253088}
   m_Layer: 8
-  m_Name: Gun
+  m_Name: 
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1466476266155006
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 4723897115331052}
-  - component: {fileID: 33985208072185548}
-  - component: {fileID: 65466875063257762}
-  - component: {fileID: 23642453058906044}
+  - 4: {fileID: 4723897115331052}
+  - 33: {fileID: 33985208072185548}
+  - 65: {fileID: 65466875063257762}
+  - 23: {fileID: 23642453058906044}
   m_Layer: 8
-  m_Name: GunGraphics
+  m_Name: 
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1741236533468570
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 4942159179601840}
+  - 4: {fileID: 4942159179601840}
   m_Layer: 8
-  m_Name: MuzzlePoint
+  m_Name: 
   m_TagString: Untagged
-  m_Icon: {fileID: 7707008975528953803, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1989752267011120
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 4978191733576736}
+  - 4: {fileID: 4978191733576736}
   m_Layer: 8
-  m_Name: GunPoint
+  m_Name: 
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4608767476931828
 Transform:
   m_ObjectHideFlags: 1
@@ -120,10 +120,10 @@ Transform:
   m_LocalRotation: {x: -0.094127715, y: -0.6904556, z: 0.712395, w: -0.08309336}
   m_LocalPosition: {x: 1.33, y: 3.05, z: -2.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 91.99, y: -213.9, z: -19.5}
   m_Children: []
   m_Father: {fileID: 4900538285829396}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 91.99, y: -213.9, z: -19.5}
 --- !u!4 &4723897115331052
 Transform:
   m_ObjectHideFlags: 1
@@ -133,10 +133,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.257, z: 0.534}
   m_LocalScale: {x: 0.36, y: 0.1, z: 0.6}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4978191733576736}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4772215433407116
 Transform:
   m_ObjectHideFlags: 1
@@ -146,10 +146,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4978191733576736}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4900538285829396
 Transform:
   m_ObjectHideFlags: 1
@@ -159,12 +159,12 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11.3, y: 0.95, z: -11.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4978191733576736}
   - {fileID: 4608767476931828}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4942159179601840
 Transform:
   m_ObjectHideFlags: 1
@@ -174,10 +174,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.26, z: 1.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4978191733576736}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4978191733576736
 Transform:
   m_ObjectHideFlags: 1
@@ -187,13 +187,13 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4723897115331052}
   - {fileID: 4942159179601840}
   - {fileID: 4772215433407116}
   m_Father: {fileID: 4900538285829396}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23149659509876002
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -208,9 +208,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: f892245964c93db4c8de924672cbdc8c, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -218,7 +216,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedWireframeHidden: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -239,9 +237,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 8465874b60437644d8e2290cd81c3d59, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -249,7 +245,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedWireframeHidden: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -331,10 +327,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa92901634bb61943b7b51884c05110b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Projectile: {fileID: 114716189857327978, guid: 7ec117801589ca84e9e565d2c5ef47d3,
-    type: 2}
-  m_GunPoint: {fileID: 4978191733576736}
-  m_MuzzlePoint: {fileID: 4942159179601840}
+  m_Projectile: {fileID: 1802395988, guid: 7ec117801589ca84e9e565d2c5ef47d3, type: 2}
+  m_GunPoint: {fileID: 0}
+  m_MuzzlePoint: {fileID: 0}
   m_MuzzleFlash: {fileID: 19856480, guid: ed9f78f3c307a1b4eabed97ce647125c, type: 2}
   m_ShootSound: {fileID: 8300000, guid: eff3770f3e216f64982306ed8d8c9144, type: 3}
 --- !u!114 &114865728604275774
@@ -349,9 +344,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_XboxController: 0
+<<<<<<< HEAD
   m_RespawnTime: 3
   m_Gun: {fileID: 114648166908253088}
+=======
+  m_Gun: {fileID: 1802396020}
+>>>>>>> d8469c894785ef34b895535a2255d22b0ca7ab90
   m_MoveSpeed: 8
   m_ShootSpeed: 50
   m_FireRate: 0.1
-  m_GunPoint: {fileID: 4978191733576736}
+  m_GunPoint: {fileID: 1802395988}
