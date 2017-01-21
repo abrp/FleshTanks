@@ -1,0 +1,3734 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: reloadfix
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.434161, y: 0.5581256, z: -0.434161, w: 0.5581256}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: -0.434161, y: 0.5581256, z: -0.434161, w: 0.5581256}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 8.0553376e-17, y: -3.312e-17, z: 0.92428803, w: -0.3816956}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 8.0553376e-17, y: -3.312e-17, z: 0.9242881, w: -0.3816956}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -1.8901156e-16, y: 1.4753789e-17, z: 0.7912923, w: 0.61143804}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: -1.8901156e-16, y: 1.4753789e-17, z: 0.7912923, w: 0.61143804}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -1.8198359e-16, y: 4.0773122e-16, z: 0.14148875, w: 0.9899399}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: -1.8198359e-16, y: 4.0773122e-16, z: 0.14148875, w: 0.98993987}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 2.7755576e-17, y: 2.7755576e-17, z: -0.0000029678024, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 2.7755576e-17, y: 2.7755576e-17, z: -0.0000029678024, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 2.7755576e-17, y: 2.7755576e-17, z: -0.0000029678024, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 2.7755576e-17, y: 2.7755576e-17, z: -0.0000029678024, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 2.7755576e-17, y: 2.7755576e-17, z: -0.0000029678024, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 2.7755576e-17, y: 2.7755576e-17, z: -0.0000029678024, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.7082891, y: 0.004124698, z: -0.004110777, w: 0.7058985}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: 0.70825565, y: 0.0041245036, z: -0.0041109724, w: 0.70593214}
+        inSlope: {x: -0.0014305115, y: -0.000011175871, z: -0.000011175871, w: 0.002861023}
+        outSlope: {x: -0.0014305115, y: -0.000011175871, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: 0.70816493, y: 0.004123975, z: -0.0041115023, w: 0.70602304}
+        inSlope: {x: -0.0042915344, y: -0.000033527613, z: -0.000022351742, w: 0.002861023}
+        outSlope: {x: -0.002861023, y: -0.000016763806, z: -0.000016763806, w: 0.002861023}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.7078689, y: 0.004122251, z: -0.004113231, w: 0.70631987}
+        inSlope: {x: -0.0042915344, y: -0.000027939677, z: -0.000027939677, w: 0.0042915344}
+        outSlope: {x: -0.0042915354, y: -0.000022351747, z: -0.000022351747, w: 0.0042915354}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833333
+        value: {x: 0.70769215, y: 0.004121222, z: -0.004114262, w: 0.70649695}
+        inSlope: {x: -0.0042915354, y: -0.000022351747, z: -0.000022351747, w: 0.0042915354}
+        outSlope: {x: -0.004291534, y: -0.00002235174, z: -0.00003352761, w: 0.004291534}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: {x: 0.70751536, y: 0.0041201925, z: -0.004115293, w: 0.706674}
+        inSlope: {x: -0.004291534, y: -0.00002235174, z: -0.00002235174, w: 0.004291534}
+        outSlope: {x: -0.003933907, y: -0.00009778888, z: 0.000050291423, w: 0.004291535}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666666
+        value: {x: 0.7071067, y: 0, z: 0, w: 0.7071068}
+        inSlope: {x: 0, y: -0.00007061772, z: 0.00007061774, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 0.7071067, y: 0, z: 0, w: 0.7071068}
+        inSlope: {x: 0, y: -0.00007061772, z: 0.00007061774, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: {x: 0.7071064, y: -0.0006346649, z: 0.000634665, w: 0.70710653}
+        inSlope: {x: 0, y: -0.000022351747, z: 0.000022351747, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.38024792, y: 1.01154144e-16, z: 4.2216e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: -0.38024792, y: 1.01154144e-16, z: 4.2216e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.19847581, y: -4.4408918e-17, z: 2.733902e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: -0.19847581, y: -4.4408918e-17, z: 2.733902e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.33321542, y: 9.175225e-17, z: -5.9088357e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: -0.33321542, y: 9.175225e-17, z: -5.9088357e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.043911286, y: 0.024763161, z: 1.9425269e-16}
+        inSlope: {x: -2.854862e-16, y: 1.9032413e-16, z: 6.7616716e-31}
+        outSlope: {x: -0.0000010735646, y: -0.0000021224594, z: -7.661937e-22}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666687
+        value: {x: -0.0439112, y: 0.039274205, z: 1.9150212e-16}
+        inSlope: {x: 0.0000027411309, y: 0.6316381, z: -1.197276e-16}
+        outSlope: {x: 0.0000031988939, y: 0.63163525, z: -1.1972557e-16}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: -0.043910656, y: 0.13102895, z: 1.7410999e-16}
+        inSlope: {x: 0.000007667548, y: 1.3757936, z: -2.6078498e-16}
+        outSlope: {x: 0.000008016309, y: 1.3757945, z: -2.607811e-16}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: {x: -0.04391029, y: 0.1920504, z: 1.6254336e-16}
+        inSlope: {x: 0.0000085612655, y: 1.45588, z: -2.7596185e-16}
+        outSlope: {x: 0.000008719315, y: 1.4558841, z: -2.7596566e-16}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: {x: -0.043909505, y: 0.32484597, z: 1.3737194e-16}
+        inSlope: {x: 0.000011389573, y: 1.9510034, z: -3.6981294e-16}
+        outSlope: {x: 0.00001156944, y: 1.9511207, z: -3.698334e-16}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: -0.04390789, y: 0.5971574, z: 8.5477695e-17}
+        inSlope: {x: -0.0000007193441, y: 0.00018271945, z: -3.3381975e-20}
+        outSlope: {x: -0.0000007193441, y: 0.00018271945, z: -3.3381975e-20}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.04391223, y: -0.13401988, z: 0.5962122}
+        inSlope: {x: -0.00000011444102, y: -0.0000038669873, z: 1.5225931e-15}
+        outSlope: {x: -0.00000029427653, y: -0.000001733708, z: 3.552712e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: {x: -0.043912094, y: -0.111760184, z: 0.5962122}
+        inSlope: {x: 0.0000026484881, y: 0.40902027, z: 1.5225909e-15}
+        outSlope: {x: 0.0000021580304, y: 0.40903437, z: 3.552717e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833331
+        value: {x: -0.04391197, y: -0.09054395, z: 0.5962122}
+        inSlope: {x: 0.0000043378595, y: 0.84926504, z: 1.5225931e-15}
+        outSlope: {x: 0.000005460455, y: 0.84936786, z: 3.552707e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: {x: -0.043911677, y: -0.04097957, z: 0.5962122}
+        inSlope: {x: 0.0000098201, y: 1.5603863, z: 1.5225887e-15}
+        outSlope: {x: 0.000008038118, y: 1.560541, z: 3.552717e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: {x: -0.0439112, y: 0.03948829, z: 0.5962122}
+        inSlope: {x: 0.000010762904, y: 2.0131385, z: 1.5225931e-15}
+        outSlope: {x: 0.000011111677, y: 2.0131624, z: 3.552717e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3333333
+        value: {x: -0.04391068, y: 0.12677927, z: 0.5962122}
+        inSlope: {x: 0.0000105667195, y: 1.8879658, z: 1.5225931e-15}
+        outSlope: {x: 0.000011591207, y: 1.8878993, z: 3.552707e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.37500006
+        value: {x: -0.043910265, y: 0.19681306, z: 0.5962122}
+        inSlope: {x: 0.000006686605, y: 1.1847571, z: 1.5225887e-15}
+        outSlope: {x: 0.0000072533803, y: 1.184667, z: 3.552717e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: -0.043910094, y: 0.2255088, z: 0.5962122}
+        inSlope: {x: 0.00000016893624, y: 0.00020248367, z: 1.5225931e-15}
+        outSlope: {x: 0.00000016893624, y: 0.00020248367, z: 1.5225931e-15}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.04391223, y: -0.13401988, z: -0.59620994}
+        inSlope: {x: -0.00000011444102, y: -0.0000038669873, z: -3.0451861e-15}
+        outSlope: {x: -0.00000029427653, y: -0.000001733708, z: -7.105424e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: {x: -0.043912094, y: -0.111760184, z: -0.59620994}
+        inSlope: {x: 0.0000026484881, y: 0.40902027, z: -3.0451817e-15}
+        outSlope: {x: 0.0000021580304, y: 0.40903437, z: -7.105434e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833331
+        value: {x: -0.04391197, y: -0.09054395, z: -0.59620994}
+        inSlope: {x: 0.0000043378595, y: 0.84926504, z: -3.0451861e-15}
+        outSlope: {x: 0.000005460455, y: 0.84936786, z: -7.105414e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: {x: -0.043911677, y: -0.04097957, z: -0.59620994}
+        inSlope: {x: 0.0000098201, y: 1.5603863, z: -3.0451775e-15}
+        outSlope: {x: 0.000008038118, y: 1.560541, z: -7.105434e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: {x: -0.0439112, y: 0.03948829, z: -0.59620994}
+        inSlope: {x: 0.000010762904, y: 2.0131385, z: -3.0451861e-15}
+        outSlope: {x: 0.000011111677, y: 2.0131624, z: -7.105434e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3333333
+        value: {x: -0.04391068, y: 0.12677927, z: -0.59620994}
+        inSlope: {x: 0.0000105667195, y: 1.8879658, z: -3.0451861e-15}
+        outSlope: {x: 0.000011591207, y: 1.8878993, z: -7.105414e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.37500006
+        value: {x: -0.043910265, y: 0.19681306, z: -0.59620994}
+        inSlope: {x: 0.000006686605, y: 1.1847571, z: -3.0451775e-15}
+        outSlope: {x: 0.0000072533803, y: 1.184667, z: -7.105434e-15}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: -0.043910094, y: 0.2255088, z: -0.59620994}
+        inSlope: {x: 0.00000016893624, y: 0.00020248367, z: -3.0451861e-15}
+        outSlope: {x: 0.00000016893624, y: 0.00020248367, z: -3.0451861e-15}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.05159499, y: 0.2397524, z: 0.0017547243}
+        inSlope: {x: -1.5860344e-15, y: 0.66847754, z: 1.7842888e-17}
+        outSlope: {x: -3.1720648e-16, y: 0.6684391, z: 4.1633347e-17}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833331
+        value: {x: -0.05159499, y: 0.28514573, z: 0.0017547243}
+        inSlope: {x: -1.5860344e-15, y: 0.0000009583455, z: 1.7842888e-17}
+        outSlope: {x: -3.17206e-16, y: 0.0000016058164, z: 4.163328e-17}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: -0.05159499, y: 0.2397524, z: 0.0017547243}
+        inSlope: {x: -1.5860344e-15, y: -0.00003063385, z: 1.7842888e-17}
+        outSlope: {x: -1.5860344e-15, y: -0.00003063385, z: 1.7842888e-17}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00000001101777, y: -0.00000001101777, z: -0.00000001101777}
+        inSlope: {x: -0.00000019833837, y: -0.00000019833837, z: -0.00000019833837}
+        outSlope: {x: -0.00000019833837, y: -0.00000019833837, z: -0.00000019833837}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: {x: 1.0399984e-13, y: 1.0399984e-13, z: 1.0399984e-13}
+        inSlope: {x: 0.0000005950015, y: 0.0000005950015, z: 0.0000005950015}
+        outSlope: {x: 0.0000005950015, y: 0.0000005950015, z: 0.0000005950015}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833343
+        value: {x: 0.000000049583903, y: 0.000000049583903, z: 0.000000049583903}
+        inSlope: {x: 0.62400365, y: 0.62400365, z: 0.62400365}
+        outSlope: {x: 0.62400365, y: 0.62400365, z: 0.62400365}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: {x: 0.052000254, y: 0.052000254, z: 0.052000254}
+        inSlope: {x: 2.1120024, y: 2.1120024, z: 2.1120024}
+        outSlope: {x: 2.1120024, y: 2.1120024, z: 2.1120024}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: {x: 0.17600009, y: 0.17600009, z: 0.17600009}
+        inSlope: {x: 3.263997, y: 3.263997, z: 3.263997}
+        outSlope: {x: 3.263997, y: 3.263997, z: 3.263997}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333343
+        value: {x: 0.32400018, y: 0.32400018, z: 0.32400018}
+        inSlope: {x: 3.2639995, y: 3.2639995, z: 3.2639995}
+        outSlope: {x: 3.2639995, y: 3.2639995, z: 3.2639995}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.37500006
+        value: {x: 0.4480002, y: 0.4480002, z: 0.4480002}
+        inSlope: {x: 2.112, y: 2.112, z: 2.112}
+        outSlope: {x: 2.112, y: 2.112, z: 2.112}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 0.5, y: 0.5, z: 0.5}
+        inSlope: {x: 1.2479966, y: 1.2479966, z: 1.2479966}
+        outSlope: {x: 1.2479966, y: 1.2479966, z: 1.2479966}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 897418505
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3018454951
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 4263597740
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3148874465
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3148874465
+      attribute: 2
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3148874465
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3269364264
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 37580423
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3193611157
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2117149892
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3269364264
+      attribute: 2
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 37580423
+      attribute: 2
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3193611157
+      attribute: 2
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2117149892
+      attribute: 2
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 897418505
+      attribute: 2
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3018454951
+      attribute: 2
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 4263597740
+      attribute: 2
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3269364264
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 37580423
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3193611157
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2117149892
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 897418505
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3018454951
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 4263597740
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.5
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.434161
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.434161
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: rig/weap_joint01_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5581256
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.5581256
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: rig/weap_joint01_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.434161
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.434161
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: rig/weap_joint01_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5581256
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.5581256
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: rig/weap_joint01_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 8.0553376e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 8.0553376e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: rig/weap_joint01_bind/weap_joint02_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -3.312e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -3.312e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: rig/weap_joint01_bind/weap_joint02_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.92428803
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.9242881
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: rig/weap_joint01_bind/weap_joint02_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.3816956
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.3816956
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: rig/weap_joint01_bind/weap_joint02_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.8901156e-16
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -1.8901156e-16
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1.4753789e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1.4753789e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.7912923
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.7912923
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.61143804
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.61143804
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.8198359e-16
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -1.8198359e-16
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 4.0773122e-16
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 4.0773122e-16
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.14148875
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.14148875
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.9899399
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.98993987
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.7755576e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 2.7755576e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.7755576e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 2.7755576e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.0000029678024
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.0000029678024
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.7755576e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 2.7755576e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.7755576e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 2.7755576e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.0000029678024
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.0000029678024
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.7755576e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 2.7755576e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.7755576e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 2.7755576e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.0000029678024
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.0000029678024
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: rig/weap_joint01_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: rig/weap_joint01_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: rig/weap_joint01_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.38024792
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.38024792
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: rig/weap_joint01_bind/weap_joint02_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1.01154144e-16
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1.01154144e-16
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: rig/weap_joint01_bind/weap_joint02_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 4.2216e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 4.2216e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: rig/weap_joint01_bind/weap_joint02_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.19847581
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.19847581
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -4.4408918e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -4.4408918e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.733902e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 2.733902e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.33321542
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.33321542
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 9.175225e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 9.175225e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -5.9088357e-18
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -5.9088357e-18
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.043911286
+        inSlope: -2.854862e-16
+        outSlope: -0.0000010735646
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666687
+        value: -0.0439112
+        inSlope: 0.0000027411309
+        outSlope: 0.0000031988939
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: -0.043910656
+        inSlope: 0.000007667548
+        outSlope: 0.000008016309
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: -0.04391029
+        inSlope: 0.0000085612655
+        outSlope: 0.000008719315
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: -0.043909505
+        inSlope: 0.000011389573
+        outSlope: 0.00001156944
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.04390789
+        inSlope: -0.0000007193441
+        outSlope: -0.0000007193441
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.024763161
+        inSlope: 1.9032413e-16
+        outSlope: -0.0000021224594
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666687
+        value: 0.039274205
+        inSlope: 0.6316381
+        outSlope: 0.63163525
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: 0.13102895
+        inSlope: 1.3757936
+        outSlope: 1.3757945
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: 0.1920504
+        inSlope: 1.45588
+        outSlope: 1.4558841
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: 0.32484597
+        inSlope: 1.9510034
+        outSlope: 1.9511207
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.5971574
+        inSlope: 0.00018271945
+        outSlope: 0.00018271945
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1.9425269e-16
+        inSlope: 6.7616716e-31
+        outSlope: -7.661937e-22
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666687
+        value: 1.9150212e-16
+        inSlope: -1.197276e-16
+        outSlope: -1.1972557e-16
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: 1.7410999e-16
+        inSlope: -2.6078498e-16
+        outSlope: -2.607811e-16
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: 1.6254336e-16
+        inSlope: -2.7596185e-16
+        outSlope: -2.7596566e-16
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: 1.3737194e-16
+        inSlope: -3.6981294e-16
+        outSlope: -3.698334e-16
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 8.5477695e-17
+        inSlope: -3.3381975e-20
+        outSlope: -3.3381975e-20
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.04391223
+        inSlope: -0.00000011444102
+        outSlope: -0.00000029427653
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: -0.043912094
+        inSlope: 0.0000026484881
+        outSlope: 0.0000021580304
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833331
+        value: -0.04391197
+        inSlope: 0.0000043378595
+        outSlope: 0.000005460455
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: -0.043911677
+        inSlope: 0.0000098201
+        outSlope: 0.000008038118
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: -0.0439112
+        inSlope: 0.000010762904
+        outSlope: 0.000011111677
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3333333
+        value: -0.04391068
+        inSlope: 0.0000105667195
+        outSlope: 0.000011591207
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.37500006
+        value: -0.043910265
+        inSlope: 0.000006686605
+        outSlope: 0.0000072533803
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.043910094
+        inSlope: 0.00000016893624
+        outSlope: 0.00000016893624
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.13401988
+        inSlope: -0.0000038669873
+        outSlope: -0.000001733708
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: -0.111760184
+        inSlope: 0.40902027
+        outSlope: 0.40903437
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833331
+        value: -0.09054395
+        inSlope: 0.84926504
+        outSlope: 0.84936786
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: -0.04097957
+        inSlope: 1.5603863
+        outSlope: 1.560541
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: 0.03948829
+        inSlope: 2.0131385
+        outSlope: 2.0131624
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3333333
+        value: 0.12677927
+        inSlope: 1.8879658
+        outSlope: 1.8878993
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.37500006
+        value: 0.19681306
+        inSlope: 1.1847571
+        outSlope: 1.184667
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.2255088
+        inSlope: 0.00020248367
+        outSlope: 0.00020248367
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5962122
+        inSlope: 1.5225931e-15
+        outSlope: 3.552712e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: 0.5962122
+        inSlope: 1.5225909e-15
+        outSlope: 3.552717e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833331
+        value: 0.5962122
+        inSlope: 1.5225931e-15
+        outSlope: 3.552707e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: 0.5962122
+        inSlope: 1.5225887e-15
+        outSlope: 3.552717e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: 0.5962122
+        inSlope: 1.5225931e-15
+        outSlope: 3.552717e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3333333
+        value: 0.5962122
+        inSlope: 1.5225931e-15
+        outSlope: 3.552707e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.37500006
+        value: 0.5962122
+        inSlope: 1.5225887e-15
+        outSlope: 3.552717e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.5962122
+        inSlope: 1.5225931e-15
+        outSlope: 1.5225931e-15
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.04391223
+        inSlope: -0.00000011444102
+        outSlope: -0.00000029427653
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: -0.043912094
+        inSlope: 0.0000026484881
+        outSlope: 0.0000021580304
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833331
+        value: -0.04391197
+        inSlope: 0.0000043378595
+        outSlope: 0.000005460455
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: -0.043911677
+        inSlope: 0.0000098201
+        outSlope: 0.000008038118
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: -0.0439112
+        inSlope: 0.000010762904
+        outSlope: 0.000011111677
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3333333
+        value: -0.04391068
+        inSlope: 0.0000105667195
+        outSlope: 0.000011591207
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.37500006
+        value: -0.043910265
+        inSlope: 0.000006686605
+        outSlope: 0.0000072533803
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.043910094
+        inSlope: 0.00000016893624
+        outSlope: 0.00000016893624
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.13401988
+        inSlope: -0.0000038669873
+        outSlope: -0.000001733708
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: -0.111760184
+        inSlope: 0.40902027
+        outSlope: 0.40903437
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833331
+        value: -0.09054395
+        inSlope: 0.84926504
+        outSlope: 0.84936786
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: -0.04097957
+        inSlope: 1.5603863
+        outSlope: 1.560541
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: 0.03948829
+        inSlope: 2.0131385
+        outSlope: 2.0131624
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3333333
+        value: 0.12677927
+        inSlope: 1.8879658
+        outSlope: 1.8878993
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.37500006
+        value: 0.19681306
+        inSlope: 1.1847571
+        outSlope: 1.184667
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.2255088
+        inSlope: 0.00020248367
+        outSlope: 0.00020248367
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.59620994
+        inSlope: -3.0451861e-15
+        outSlope: -7.105424e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: -0.59620994
+        inSlope: -3.0451817e-15
+        outSlope: -7.105434e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833331
+        value: -0.59620994
+        inSlope: -3.0451861e-15
+        outSlope: -7.105414e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: -0.59620994
+        inSlope: -3.0451775e-15
+        outSlope: -7.105434e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: -0.59620994
+        inSlope: -3.0451861e-15
+        outSlope: -7.105434e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3333333
+        value: -0.59620994
+        inSlope: -3.0451861e-15
+        outSlope: -7.105414e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.37500006
+        value: -0.59620994
+        inSlope: -3.0451775e-15
+        outSlope: -7.105434e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.59620994
+        inSlope: -3.0451861e-15
+        outSlope: -3.0451861e-15
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.05159499
+        inSlope: -1.5860344e-15
+        outSlope: -3.1720648e-16
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833331
+        value: -0.05159499
+        inSlope: -1.5860344e-15
+        outSlope: -3.17206e-16
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.05159499
+        inSlope: -1.5860344e-15
+        outSlope: -1.5860344e-15
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.2397524
+        inSlope: 0.66847754
+        outSlope: 0.6684391
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833331
+        value: 0.28514573
+        inSlope: 0.0000009583455
+        outSlope: 0.0000016058164
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.2397524
+        inSlope: -0.00003063385
+        outSlope: -0.00003063385
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.0017547243
+        inSlope: 1.7842888e-17
+        outSlope: 4.1633347e-17
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833331
+        value: 0.0017547243
+        inSlope: 1.7842888e-17
+        outSlope: 4.163328e-17
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.0017547243
+        inSlope: 1.7842888e-17
+        outSlope: 1.7842888e-17
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: rig/weap_joint01_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: rig/weap_joint01_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: rig/weap_joint01_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: rig/weap_joint01_bind/weap_joint02_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: rig/weap_joint01_bind/weap_joint02_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: rig/weap_joint01_bind/weap_joint02_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.00000001101777
+        inSlope: -0.00000019833837
+        outSlope: -0.00000019833837
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: 1.0399984e-13
+        inSlope: 0.0000005950015
+        outSlope: 0.0000005950015
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833343
+        value: 0.000000049583903
+        inSlope: 0.62400365
+        outSlope: 0.62400365
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: 0.052000254
+        inSlope: 2.1120024
+        outSlope: 2.1120024
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: 0.17600009
+        inSlope: 3.263997
+        outSlope: 3.263997
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333343
+        value: 0.32400018
+        inSlope: 3.2639995
+        outSlope: 3.2639995
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.37500006
+        value: 0.4480002
+        inSlope: 2.112
+        outSlope: 2.112
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.5
+        inSlope: 1.2479966
+        outSlope: 1.2479966
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.00000001101777
+        inSlope: -0.00000019833837
+        outSlope: -0.00000019833837
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: 1.0399984e-13
+        inSlope: 0.0000005950015
+        outSlope: 0.0000005950015
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833343
+        value: 0.000000049583903
+        inSlope: 0.62400365
+        outSlope: 0.62400365
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: 0.052000254
+        inSlope: 2.1120024
+        outSlope: 2.1120024
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: 0.17600009
+        inSlope: 3.263997
+        outSlope: 3.263997
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333343
+        value: 0.32400018
+        inSlope: 3.2639995
+        outSlope: 3.2639995
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.37500006
+        value: 0.4480002
+        inSlope: 2.112
+        outSlope: 2.112
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.5
+        inSlope: 1.2479966
+        outSlope: 1.2479966
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.00000001101777
+        inSlope: -0.00000019833837
+        outSlope: -0.00000019833837
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666669
+        value: 1.0399984e-13
+        inSlope: 0.0000005950015
+        outSlope: 0.0000005950015
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833343
+        value: 0.000000049583903
+        inSlope: 0.62400365
+        outSlope: 0.62400365
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25000006
+        value: 0.052000254
+        inSlope: 2.1120024
+        outSlope: 2.1120024
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: 0.17600009
+        inSlope: 3.263997
+        outSlope: 3.263997
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333343
+        value: 0.32400018
+        inSlope: 3.2639995
+        outSlope: 3.2639995
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.37500006
+        value: 0.4480002
+        inSlope: 2.112
+        outSlope: 2.112
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.5
+        inSlope: 1.2479966
+        outSlope: 1.2479966
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.7082891
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: 0.70825565
+        inSlope: -0.0014305115
+        outSlope: -0.0014305115
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.70816493
+        inSlope: -0.0042915344
+        outSlope: -0.002861023
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.7078689
+        inSlope: -0.0042915344
+        outSlope: -0.0042915354
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833333
+        value: 0.70769215
+        inSlope: -0.0042915354
+        outSlope: -0.004291534
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: 0.70751536
+        inSlope: -0.004291534
+        outSlope: -0.003933907
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0.7071067
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.7071067
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.7071064
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.004124698
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: 0.0041245036
+        inSlope: -0.000011175871
+        outSlope: -0.000011175871
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.004123975
+        inSlope: -0.000033527613
+        outSlope: -0.000016763806
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.004122251
+        inSlope: -0.000027939677
+        outSlope: -0.000022351747
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833333
+        value: 0.004121222
+        inSlope: -0.000022351747
+        outSlope: -0.00002235174
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: 0.0041201925
+        inSlope: -0.00002235174
+        outSlope: -0.00009778888
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: -0.00007061772
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -2.4351647e-16
+        inSlope: 0
+        outSlope: -0.000022845728
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: -0.0006346649
+        inSlope: -0.000022351747
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.004110777
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: -0.0041109724
+        inSlope: -0.000011175871
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.0041115023
+        inSlope: -0.000022351742
+        outSlope: -0.000016763806
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.004113231
+        inSlope: -0.000027939677
+        outSlope: -0.000022351747
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833333
+        value: -0.004114262
+        inSlope: -0.000022351747
+        outSlope: -0.00003352761
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -0.004115293
+        inSlope: -0.00002235174
+        outSlope: 0.000050291423
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0.00007061774
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 2.4351652e-16
+        inSlope: 0
+        outSlope: 0.00002284573
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.000634665
+        inSlope: 0.000022351747
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.7058985
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: 0.70593214
+        inSlope: 0.002861023
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.70602304
+        inSlope: 0.002861023
+        outSlope: 0.002861023
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.70631987
+        inSlope: 0.0042915344
+        outSlope: 0.0042915354
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833333
+        value: 0.70649695
+        inSlope: 0.0042915354
+        outSlope: 0.004291534
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: 0.706674
+        inSlope: 0.004291534
+        outSlope: 0.004291535
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0.7071068
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0.7071068
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.70710653
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: rig/weap_joint01_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 90
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 90
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: rig/weap_joint01_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -75.758064
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -75.758064
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: rig/weap_joint01_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.5406447e-17
+        inSlope: 1.10926416e-16
+        outSlope: 1.10926416e-16
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -1.5406447e-17
+        inSlope: 1.10926416e-16
+        outSlope: 1.10926416e-16
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: rig/weap_joint01_bind/weap_joint02_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 9.9804994e-15
+        inSlope: -7.1859585e-14
+        outSlope: -7.1859585e-14
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 9.980499e-15
+        inSlope: -7.1859585e-14
+        outSlope: -7.1859585e-14
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: rig/weap_joint01_bind/weap_joint02_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -135.12248
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -135.12248
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: rig/weap_joint01_bind/weap_joint02_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.4581022e-14
+        inSlope: 1.0498335e-13
+        outSlope: 1.0498335e-13
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -1.4581022e-14
+        inSlope: 1.0498335e-13
+        outSlope: 1.0498335e-13
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.6104968e-14
+        inSlope: 1.1595576e-13
+        outSlope: 1.1595576e-13
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -1.6104968e-14
+        inSlope: 1.1595576e-13
+        outSlope: 1.1595576e-13
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 104.612885
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 104.612885
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -2.7254706e-14
+        inSlope: 1.9623387e-13
+        outSlope: 1.9623387e-13
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -2.7254706e-14
+        inSlope: 1.9623387e-13
+        outSlope: 1.9623387e-13
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 4.3301937e-14
+        inSlope: -3.1177394e-13
+        outSlope: -3.1177394e-13
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 4.330194e-14
+        inSlope: -3.1177396e-13
+        outSlope: -3.1177396e-13
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 16.268003
+        inSlope: 0.00001373291
+        outSlope: 0.00001373291
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 16.268005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 3.180564e-15
+        inSlope: -2.2900061e-14
+        outSlope: -2.2900061e-14
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 3.180564e-15
+        inSlope: -2.2900061e-14
+        outSlope: -2.2900061e-14
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 3.180545e-15
+        inSlope: -2.2899922e-14
+        outSlope: -2.2899922e-14
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 3.180545e-15
+        inSlope: -2.2899922e-14
+        outSlope: -2.2899922e-14
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.0003400851
+        inSlope: 0.00003162052
+        outSlope: 0.00003162052
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.0003400851
+        inSlope: 0.00003162052
+        outSlope: 0.00003162052
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint06_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 3.180564e-15
+        inSlope: -2.2900061e-14
+        outSlope: -2.2900061e-14
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 3.180564e-15
+        inSlope: -2.2900061e-14
+        outSlope: -2.2900061e-14
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 3.180545e-15
+        inSlope: -2.2899922e-14
+        outSlope: -2.2899922e-14
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 3.180545e-15
+        inSlope: -2.2899922e-14
+        outSlope: -2.2899922e-14
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.0003400851
+        inSlope: 0.00003162052
+        outSlope: 0.00003162052
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.0003400851
+        inSlope: 0.00003162052
+        outSlope: 0.00003162052
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint05_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 3.180564e-15
+        inSlope: -2.2900061e-14
+        outSlope: -2.2900061e-14
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 3.180564e-15
+        inSlope: -2.2900061e-14
+        outSlope: -2.2900061e-14
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 3.180545e-15
+        inSlope: -2.2899922e-14
+        outSlope: -2.2899922e-14
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 3.180545e-15
+        inSlope: -2.2899922e-14
+        outSlope: -2.2899922e-14
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.0003400851
+        inSlope: 0.00003162052
+        outSlope: 0.00003162052
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: -0.0003400851
+        inSlope: 0.00003162052
+        outSlope: 0.00003162052
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/weap_joint07_bind
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 90.193695
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 89.99998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.041666668
+        value: -0.6673126
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.6673126
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.6673126
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833333
+        value: -0.6673126
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -0.6673126
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.10285187
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: rig/weap_joint01_bind/weap_joint02_bind/weap_joint03_bind/weap_joint04_bind/joint1
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_IsEmpty: 0
+  m_Events: []
