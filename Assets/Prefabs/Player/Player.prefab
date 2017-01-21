@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 137718417809356068}
   - component: {fileID: 114118260050552102}
   - component: {fileID: 65665571547120344}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_right_upperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 137853131060972090}
   - component: {fileID: 114971495944855378}
   - component: {fileID: 65761286841805624}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_pelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 137500618404279476}
   - component: {fileID: 114959576250874650}
   - component: {fileID: 65672537013042038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_mouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 137692141140112860}
   - component: {fileID: 114904891809749880}
   - component: {fileID: 65790988474947136}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_left_upperLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 137984048125398966}
   - component: {fileID: 114024192812763474}
   - component: {fileID: 65400537642946942}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_midB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 137411504418044234}
   - component: {fileID: 114746577972589830}
   - component: {fileID: 65052134659061482}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,6 +240,21 @@ GameObject:
   - component: {fileID: 4773506614653286}
   m_Layer: 0
   m_Name: L_upArm_bind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1203950359301628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4302590321109594}
+  m_Layer: 8
+  m_Name: PlayerToken
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -362,7 +377,7 @@ GameObject:
   - component: {fileID: 137798672196494426}
   - component: {fileID: 114320915796187036}
   - component: {fileID: 65079114867749122}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_right_hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,7 +395,7 @@ GameObject:
   - component: {fileID: 137849601195778472}
   - component: {fileID: 114206156055668160}
   - component: {fileID: 65772509384350298}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_right_foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -398,7 +413,7 @@ GameObject:
   - component: {fileID: 137372226512920656}
   - component: {fileID: 114565836463643032}
   - component: {fileID: 65233548681153096}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_right_upperLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +479,7 @@ GameObject:
   - component: {fileID: 137797800955352138}
   - component: {fileID: 114173573984953588}
   - component: {fileID: 65268244741068140}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_midA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +512,7 @@ GameObject:
   - component: {fileID: 137450360532733162}
   - component: {fileID: 114495410672042484}
   - component: {fileID: 65186830806843108}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_left_foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -515,7 +530,7 @@ GameObject:
   - component: {fileID: 137417237563069832}
   - component: {fileID: 114893372600835460}
   - component: {fileID: 65776757457959392}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_left_underLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +593,7 @@ GameObject:
   - component: {fileID: 137836707504261762}
   - component: {fileID: 114006269666907674}
   - component: {fileID: 65764816650142242}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_left_hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -596,7 +611,7 @@ GameObject:
   - component: {fileID: 137984232291973140}
   - component: {fileID: 114647668843687952}
   - component: {fileID: 65375252110876068}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_head_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -645,7 +660,7 @@ GameObject:
   - component: {fileID: 137005605234012570}
   - component: {fileID: 114005378568486824}
   - component: {fileID: 65769472468080534}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_left_underArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -693,7 +708,7 @@ GameObject:
   - component: {fileID: 137862867493287414}
   - component: {fileID: 114004681688865894}
   - component: {fileID: 65003145857669974}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_left_upperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -711,7 +726,7 @@ GameObject:
   - component: {fileID: 137144343271034136}
   - component: {fileID: 114643452453320586}
   - component: {fileID: 65612405757967358}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_right_underArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -729,7 +744,7 @@ GameObject:
   - component: {fileID: 137600472094615774}
   - component: {fileID: 114712726406727708}
   - component: {fileID: 65625371468426282}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_right_underLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -838,7 +853,7 @@ GameObject:
   - component: {fileID: 137298471198363470}
   - component: {fileID: 114734269176205680}
   - component: {fileID: 65532326026950508}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fleshMesh:flesh_head_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -982,6 +997,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4580942419495480}
   m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4302590321109594
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1203950359301628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4900538285829396}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4314096234474674
 Transform:
@@ -1527,6 +1555,7 @@ Transform:
   - {fileID: 4978191733576736}
   - {fileID: 4608767476931828}
   - {fileID: 4686954690333396}
+  - {fileID: 4302590321109594}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
