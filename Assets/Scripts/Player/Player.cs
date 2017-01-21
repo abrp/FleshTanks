@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using XboxCtrlrInput;
 
-using XboxCtrlrInput;		// Be sure to include this if you want an object to have Xbox input
+[RequireComponent(typeof(PlayerController))]
+public class Player : CustomMonobehavior {
 
-[RequireComponent (typeof(PlayerController))]
-public class Player : MonoBehaviour {
+    //==============================================================================
+    // Fields
+    //==============================================================================
 
     [SerializeField]
     private XboxController m_XboxController;
@@ -31,11 +34,30 @@ public class Player : MonoBehaviour {
 
     private Vector3 m_PlayerStartPosition;
 
-    private bool m_isInPlay = true;
+    private bool m_IsAlive = false;
+
+    private MeshRenderer[] meshRenderes;
+
+    //==============================================================================
+    // MonoBehaviour
+    //==============================================================================
 
     private void Start() {
         m_PlayerController = GetComponent<PlayerController>();
         m_PlayerStartPosition = transform.position;
+    }
+
+    //==============================================================================
+    // private
+    //==============================================================================
+
+    private void HidePlayer() {
+
+    }
+
+    private void ShowPlayer()
+    {
+
     }
 
     private void HandleRotation() {
@@ -76,18 +98,38 @@ public class Player : MonoBehaviour {
         }
     }
 
-	private void Update () {
-        if (m_isInPlay) {
+    private void Handle() {
+
+    }
+
+    //==============================================================================
+    // Loops
+    //==============================================================================
+
+    protected override void GameLoop()
+    {
+        base.GameLoop();
+
+        if (m_IsAlive)
+        {
             HandleMovement();
             HandleRotation();
             HandleShooting();
         }
     }
 
+    //==============================================================================
+    // public
+    //==============================================================================
+
     public void Respawn() {
 
         transform.position = m_PlayerStartPosition;
     }
+
+    //==============================================================================
+    // IEnumerator
+    //==============================================================================
 
     IEnumerator StartRespawn() {
         yield return null;

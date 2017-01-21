@@ -12,7 +12,15 @@ public class GameManager : MonoBehaviour {
 
     public enum GameState {Pre, Game, End, Pause};
 
+    [SerializeField]
     private GameState m_CurrentGameState = GameState.Pre;
+
+    //==============================================================================
+    // Delegates
+    //==============================================================================
+
+    public delegate void GameManagerEventHandler();
+    public GameManagerEventHandler onStateChangeCallBack;
 
     //==============================================================================
     // Properties
@@ -44,5 +52,11 @@ public class GameManager : MonoBehaviour {
     //==============================================================================
     public void SetGameState(GameState newGameState) {
         m_CurrentGameState = newGameState;
+
+        // game state changed
+        if (onStateChangeCallBack != null)
+        {
+            onStateChangeCallBack();
+        }
     }
 }
