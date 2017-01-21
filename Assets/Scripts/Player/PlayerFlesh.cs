@@ -17,6 +17,8 @@ public class PlayerFlesh : MonoBehaviour {
     [SerializeField]
     private ParticleSystem m_SmallBloodPool;
 
+    private Player m_Player;
+
     //==============================================================================
     // MonoBehaviour
     //==============================================================================
@@ -24,6 +26,10 @@ public class PlayerFlesh : MonoBehaviour {
     private void Start () {
         m_Collder = GetComponent<Collider>();
         m_SkinnedMesh = GetComponent<SkinnedMeshRenderer>();
+    }
+
+    public void SetPlayerReference(Player player) {
+        m_Player = player;
     }
 
     //==============================================================================

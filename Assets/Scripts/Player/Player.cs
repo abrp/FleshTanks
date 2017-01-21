@@ -63,6 +63,11 @@ public class Player : CustomMonobehavior {
         m_PlayerController = GetComponent<PlayerController>();
         m_PlayerStartPosition = transform.position;
         m_PlayerFlesh = GetComponentsInChildren<PlayerFlesh>();
+
+        for (int i = 0; i < m_PlayerFlesh.length; i++)
+        {
+
+        }
     }
 
     //==============================================================================
@@ -125,8 +130,14 @@ public class Player : CustomMonobehavior {
         if (leftStick.magnitude > 0.1)
         {
             float angle = Mathf.Atan2(leftStickX, leftStickY) * 57.297f;
-            m_Skeleton.localEulerAngles = new Vector3(0,  angle, 0);
+            m_Skeleton.localEulerAngles = new Vector3(0, angle, 0);
+            m_FleshTankAnimator.SetFloat("backForward", leftStick.magnitude);
         }
+        else {
+            m_FleshTankAnimator.SetFloat("backForward", 0);
+        }
+
+        
 
         m_PlayerController.Move(moveVelocity);
     }
