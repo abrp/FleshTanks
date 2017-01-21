@@ -35,11 +35,14 @@ public class Player : CustomMonobehavior {
     [SerializeField]
     private Transform m_GunPoint;
 
+    [SerializeField]
+    private Transform m_Skeleton;
+
     private Vector3 m_PlayerStartPosition;
 
     private bool m_IsAlive = true;
 
-    private MeshRenderer[] meshRenderes;
+    private PlayerFlesh[] m_PlayerFlesh;
 
     private bool m_IsRespawning = false;
 
@@ -50,6 +53,7 @@ public class Player : CustomMonobehavior {
     private void Start() {
         m_PlayerController = GetComponent<PlayerController>();
         m_PlayerStartPosition = transform.position;
+        m_PlayerFlesh = GetComponentsInChildren<PlayerFlesh>();
     }
 
     //==============================================================================
@@ -105,7 +109,15 @@ public class Player : CustomMonobehavior {
         float leftStickY = XCI.GetAxis(XboxAxis.LeftStickY, m_XboxController);
 
         Vector3 moveInput = new Vector3(leftStickX, 0, leftStickY);
-        Vector3 moveVelocity = moveInput.normalized * m_MoveSpeed;
+        Vector3 moveVelocity = moveInput * m_MoveSpeed;
+
+        Vector2 leftStick = new Vector2(leftStickX, leftStickY);
+
+        if (leftStick.magnitude > 0.1)
+        {
+            float angle = Mathf.Atan2(leftStickX, leftStickY) * 57.297f;
+            m_Skeleton.localEulerAngles = new Vector3(0,  angle, 0);
+        }
 
         m_PlayerController.Move(moveVelocity);
     }
