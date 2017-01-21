@@ -41,6 +41,12 @@ public class Player : CustomMonobehavior {
     [SerializeField]
     private Transform m_Skeleton;
 
+    [SerializeField]
+    private Animator m_HarpoonAnimator;
+
+    [SerializeField]
+    private Animator m_FleshTankAnimator;
+
     private Vector3 m_PlayerStartPosition;
 
     private bool m_IsAlive = true;
@@ -143,7 +149,11 @@ public class Player : CustomMonobehavior {
             float rightTrigger = XCI.GetAxis(XboxAxis.RightTrigger, m_XboxController);
 
             if ((leftTrigger > 0.1f) || (rightTrigger > 0.1f)) {
-                if (m_Ammo > 0) { 
+                if (m_Ammo > 0) {
+                    if (m_HarpoonAnimator != null) {
+                        m_HarpoonAnimator.SetTrigger("shoot");
+                    }
+
                     m_Gun.Shoot(m_ShootSpeed);
                     m_Ammo--;
                     m_NextFire = Time.time + m_FireRate;
