@@ -33,6 +33,9 @@ public class Player : CustomMonobehavior {
     private float m_NextFire = 0;
 
     [SerializeField]
+    private float m_Ammo = 50;
+
+    [SerializeField]
     private Transform m_GunPoint;
 
     [SerializeField]
@@ -140,8 +143,11 @@ public class Player : CustomMonobehavior {
             float rightTrigger = XCI.GetAxis(XboxAxis.RightTrigger, m_XboxController);
 
             if ((leftTrigger > 0.1f) || (rightTrigger > 0.1f)) {
-                m_Gun.Shoot(m_ShootSpeed);
-                m_NextFire = Time.time + m_FireRate;
+                if (m_Ammo > 0) { 
+                    m_Gun.Shoot(m_ShootSpeed);
+                    m_Ammo--;
+                    m_NextFire = Time.time + m_FireRate;
+                }
             }
         }
     }

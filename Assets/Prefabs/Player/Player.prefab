@@ -82,6 +82,7 @@ GameObject:
   - component: {fileID: 4915489377674908}
   - component: {fileID: 137569203779640326}
   - component: {fileID: 114159617443981780}
+  - component: {fileID: 65011911919890474}
   m_Layer: 10
   m_Name: fleshMesh:flesh_right_underLeg
   m_TagString: Untagged
@@ -176,6 +177,7 @@ GameObject:
   - component: {fileID: 4032556444724192}
   - component: {fileID: 137941964783740724}
   - component: {fileID: 114969665002259960}
+  - component: {fileID: 65657166020487366}
   m_Layer: 10
   m_Name: fleshMesh:flesh_pelvis
   m_TagString: Untagged
@@ -193,6 +195,7 @@ GameObject:
   - component: {fileID: 4649202844640160}
   - component: {fileID: 137788699846291240}
   - component: {fileID: 114710457326605022}
+  - component: {fileID: 65417269592851282}
   m_Layer: 10
   m_Name: fleshMesh:flesh_left_hand
   m_TagString: Untagged
@@ -225,6 +228,7 @@ GameObject:
   - component: {fileID: 4118284652149328}
   - component: {fileID: 137511413795824112}
   - component: {fileID: 114318710248921096}
+  - component: {fileID: 65822007125572190}
   m_Layer: 10
   m_Name: fleshMesh:flesh_left_upperLeg
   m_TagString: Untagged
@@ -242,6 +246,7 @@ GameObject:
   - component: {fileID: 4053216947986270}
   - component: {fileID: 137802797548461540}
   - component: {fileID: 114834330725619930}
+  - component: {fileID: 65912451394779804}
   m_Layer: 10
   m_Name: fleshMesh:flesh_left_foot
   m_TagString: Untagged
@@ -259,6 +264,7 @@ GameObject:
   - component: {fileID: 4426259537352772}
   - component: {fileID: 137446045203056056}
   - component: {fileID: 114694022574321458}
+  - component: {fileID: 65571557444355904}
   m_Layer: 10
   m_Name: fleshMesh:flesh_right_upperArm
   m_TagString: Untagged
@@ -306,6 +312,7 @@ GameObject:
   - component: {fileID: 4326070493726780}
   - component: {fileID: 137651467568335706}
   - component: {fileID: 114691225916899962}
+  - component: {fileID: 65413957646451894}
   m_Layer: 10
   m_Name: fleshMesh:flesh_chest
   m_TagString: Untagged
@@ -323,6 +330,7 @@ GameObject:
   - component: {fileID: 4637353483860418}
   - component: {fileID: 137474350321021338}
   - component: {fileID: 114598013330363702}
+  - component: {fileID: 65028946257698890}
   m_Layer: 10
   m_Name: fleshMesh:flesh_right_foot
   m_TagString: Untagged
@@ -370,6 +378,7 @@ GameObject:
   - component: {fileID: 4935779789950052}
   - component: {fileID: 137775148208062584}
   - component: {fileID: 114602161605646588}
+  - component: {fileID: 65230834135941210}
   m_Layer: 10
   m_Name: fleshMesh:flesh_right_upperLeg
   m_TagString: Untagged
@@ -432,6 +441,7 @@ GameObject:
   - component: {fileID: 4447583536675342}
   - component: {fileID: 137094066500249250}
   - component: {fileID: 114243716579213960}
+  - component: {fileID: 65338193702305206}
   m_Layer: 10
   m_Name: fleshMesh:flesh_left_underArm
   m_TagString: Untagged
@@ -449,6 +459,7 @@ GameObject:
   - component: {fileID: 4969354065987360}
   - component: {fileID: 137868305941521538}
   - component: {fileID: 114333536014043050}
+  - component: {fileID: 65518674711912444}
   m_Layer: 10
   m_Name: fleshMesh:flesh_right_underArm
   m_TagString: Untagged
@@ -466,6 +477,7 @@ GameObject:
   - component: {fileID: 4188722351054202}
   - component: {fileID: 137038125468030056}
   - component: {fileID: 114804037469977630}
+  - component: {fileID: 65656963902126696}
   m_Layer: 10
   m_Name: fleshMesh:flesh_left_underLeg
   m_TagString: Untagged
@@ -605,6 +617,7 @@ GameObject:
   - component: {fileID: 4377343835352682}
   - component: {fileID: 137267017010969454}
   - component: {fileID: 114270385299951020}
+  - component: {fileID: 65233206840709048}
   m_Layer: 10
   m_Name: fleshMesh:flesh_midB
   m_TagString: Untagged
@@ -622,6 +635,7 @@ GameObject:
   - component: {fileID: 4842992807165934}
   - component: {fileID: 137581973796072920}
   - component: {fileID: 114240904204821782}
+  - component: {fileID: 65512036659874708}
   m_Layer: 10
   m_Name: fleshMesh:flesh_midA
   m_TagString: Untagged
@@ -669,6 +683,7 @@ GameObject:
   - component: {fileID: 4533179570447808}
   - component: {fileID: 137468865218340684}
   - component: {fileID: 114934700757968838}
+  - component: {fileID: 65259905089396116}
   m_Layer: 10
   m_Name: fleshMesh:flesh_head_left
   m_TagString: Untagged
@@ -686,6 +701,7 @@ GameObject:
   - component: {fileID: 4776531328016300}
   - component: {fileID: 137053372094871512}
   - component: {fileID: 114219401710600616}
+  - component: {fileID: 65238950689319076}
   m_Layer: 10
   m_Name: fleshMesh:flesh_head_right
   m_TagString: Untagged
@@ -718,6 +734,7 @@ GameObject:
   - component: {fileID: 4703165466578562}
   - component: {fileID: 137891326084451246}
   - component: {fileID: 114836414567489022}
+  - component: {fileID: 65103955103423820}
   m_Layer: 10
   m_Name: fleshMesh:flesh_right_hand
   m_TagString: Untagged
@@ -834,6 +851,7 @@ GameObject:
   - component: {fileID: 4477250683476152}
   - component: {fileID: 137851804075412186}
   - component: {fileID: 114405986128554644}
+  - component: {fileID: 65138266588828092}
   m_Layer: 10
   m_Name: fleshMesh:flesh_mouth
   m_TagString: Untagged
@@ -851,6 +869,7 @@ GameObject:
   - component: {fileID: 4039656846925472}
   - component: {fileID: 137230908291099560}
   - component: {fileID: 114522452887947938}
+  - component: {fileID: 65064881837100040}
   m_Layer: 10
   m_Name: fleshMesh:flesh_left_upperArm
   m_TagString: Untagged
@@ -1690,6 +1709,174 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!65 &65011911919890474
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1157171487583282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16269241, y: 0.53942, z: 0.36654976}
+  m_Center: {x: 0.13867413, y: 0.3245514, z: -0.056305878}
+--- !u!65 &65028946257698890
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1461341071792998}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.13058576, y: 0.34394783, z: 0.42453298}
+  m_Center: {x: 0.11491071, y: 0.02397567, z: 0.016649373}
+--- !u!65 &65064881837100040
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1982824916697362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.43767533, y: 0.21021543, z: 0.26176113}
+  m_Center: {x: -0.2914837, y: 1.507084, z: -0.12396058}
+--- !u!65 &65103955103423820
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1828428754668244}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3887543, y: 0.10966187, z: 0.3058425}
+  m_Center: {x: 0.8835633, y: 1.4934229, z: -0.09469706}
+--- !u!65 &65138266588828092
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1974386055107428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.293428, y: 0.3957581, z: 0.43039563}
+  m_Center: {x: 0.000003747642, y: 1.6092802, z: 0.0019058436}
+--- !u!65 &65230834135941210
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1494736128098242}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16842969, y: 0.4838113, z: 0.38399476}
+  m_Center: {x: 0.10024851, y: 0.69891965, z: -0.011528924}
+--- !u!65 &65233206840709048
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721208245450044}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.31969646, y: 0.36987597, z: 0.37965176}
+  m_Center: {x: 0.000000059604645, y: 1.0294017, z: -0.042084105}
+--- !u!65 &65238950689319076
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808747204699414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15705955, y: 0.50460553, z: 0.50368226}
+  m_Center: {x: 0.07827313, y: 1.7421639, z: -0.017429337}
+--- !u!65 &65259905089396116
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791733995593512}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15679957, y: 0.50460553, z: 0.50368226}
+  m_Center: {x: -0.07826237, y: 1.7421639, z: -0.017429337}
+--- !u!65 &65338193702305206
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553230134271120}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.379789, y: 0.1335224, z: 0.24287017}
+  m_Center: {x: -0.640014, y: 1.5079159, z: -0.13514693}
+--- !u!65 &65413957646451894
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1445640433789088}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.46850988, y: 0.5443695, z: 0.5281702}
+  m_Center: {x: 0.00001244247, y: 1.3608512, z: -0.07333459}
+--- !u!65 &65417269592851282
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1251707574187244}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.35513592, y: 0.10971167, z: 0.29393017}
+  m_Center: {x: -0.9194458, y: 1.4889528, z: -0.091987886}
+--- !u!65 &65512036659874708
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1732740314045582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.30473387, y: 0.43914786, z: 0.42773378}
+  m_Center: {x: -0.0000040233135, y: 1.1913829, z: -0.049555235}
+--- !u!65 &65518674711912444
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554915211874056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.37717518, y: 0.13346064, z: 0.279345}
+  m_Center: {x: 0.6369937, y: 1.5107328, z: -0.14876047}
 --- !u!65 &65527531197154466
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1710,10 +1897,70 @@ BoxCollider:
   m_GameObject: {fileID: 1879426387714608}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65571557444355904
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1315636748312480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.45079327, y: 0.21046478, z: 0.2636519}
+  m_Center: {x: 0.2979688, y: 1.5070993, z: -0.12524629}
+--- !u!65 &65656963902126696
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1556046496343834}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16269626, y: 0.5528141, z: 0.37191212}
+  m_Center: {x: -0.13868025, y: 0.32933706, z: -0.054641213}
+--- !u!65 &65657166020487366
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229286369287284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.36892506, y: 0.3444363, z: 0.3634473}
+  m_Center: {x: 0.00000081956387, y: 0.9117361, z: -0.048467085}
+--- !u!65 &65822007125572190
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1282787839379808}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16940293, y: 0.4819097, z: 0.38259003}
+  m_Center: {x: -0.09976025, y: 0.69986236, z: -0.011245817}
+--- !u!65 &65912451394779804
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1296933901494350}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.12923756, y: 0.33125675, z: 0.41263527}
+  m_Center: {x: -0.11423671, y: 0.028465599, z: 0.022840023}
 --- !u!95 &95923189403700424
 Animator:
   serializedVersion: 3
@@ -1753,6 +2000,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114219401710600616
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1764,6 +2014,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114240904204821782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1775,6 +2028,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114243716579213960
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1786,6 +2042,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114270385299951020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1797,6 +2056,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114318710248921096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1808,6 +2070,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114333536014043050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1819,6 +2084,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114386318110690358
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1836,6 +2104,7 @@ MonoBehaviour:
   m_MoveSpeed: 8
   m_ShootSpeed: 50
   m_FireRate: 0.1
+  m_Ammo: 50
   m_GunPoint: {fileID: 4997099646939022}
   m_Skeleton: {fileID: 4597979514795370}
 --- !u!114 &114405986128554644
@@ -1849,6 +2118,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114478961091709332
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1877,6 +2149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114598013330363702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1888,6 +2163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114602161605646588
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1899,6 +2177,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114691225916899962
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1910,6 +2191,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114694022574321458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1921,6 +2205,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114710457326605022
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1932,6 +2219,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114804037469977630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1943,6 +2233,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114834330725619930
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1954,6 +2247,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114836414567489022
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1965,6 +2261,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114934700757968838
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1976,6 +2275,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!114 &114969665002259960
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1987,6 +2289,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d290e73b86a70418b433d24e7ec814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SmallFleshWound: {fileID: 198755292121907198, guid: d55f50a4d76fc8344a5cc7e05b685ba9,
+    type: 2}
+  m_SmallBloodPool: {fileID: 0}
 --- !u!137 &137038125468030056
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -3014,7 +3319,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -157126193
+  randomSeed: -1606368336
   InitialModule:
     serializedVersion: 3
     enabled: 1

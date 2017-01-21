@@ -19,8 +19,13 @@ public class Gun : MonoBehaviour {
     [SerializeField]
     AudioClip m_ShootSound;
 
+    [SerializeField]
+    
+
     public void Shoot(float force) {
         Projectile p = Instantiate(m_Projectile, m_MuzzlePoint.position, Quaternion.identity);
+        //p.transform.rotation = m_GunPoint.rotation;
+        p.SetProjectileRotation(m_MuzzlePoint.rotation);
         p.SetDirection(m_MuzzlePoint.forward);
         p.SetSpeed(force);
         ParticleManager.instance.InstantiateParticleSystem(m_MuzzleFlash, m_MuzzlePoint.position);

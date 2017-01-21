@@ -17,6 +17,9 @@ public class Projectile : MonoBehaviour {
     [SerializeField]
     private AudioClip m_ExplosionHitSound;
 
+    [SerializeField]
+    private Transform m_Graphics;
+
     private Vector3 m_ForwardDirection;
 
     private float m_Speed = 1;
@@ -109,6 +112,10 @@ public class Projectile : MonoBehaviour {
 
     public void SetDirection(Vector3 direction) {
         m_ForwardDirection = direction;
+    }
+
+    public void SetProjectileRotation(Quaternion rotation) {
+        m_Graphics.rotation = rotation;
     }
 
     public void SetSpeed(float speed) {

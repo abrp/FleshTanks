@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e2c98cdd5606a49b00ad1dde14dee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlayersPrefab: {fileID: 114865728604275774, guid: 01c4011ea6208304f9e98905b52f1330,
+  m_PlayersPrefab: {fileID: 114386318110690358, guid: 7293a0c5e59a2f94fae2b1c0f518bcd9,
     type: 2}
   m_SpawnParticleSystem: {fileID: 198894315377987126, guid: 41eaa383865890f4898106bd8af36fa4,
     type: 2}
@@ -61,5 +61,5 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   m_MoveSpeed: 8
-  m_ShootSpeed: 55
-  m_FireRate: 0.1
+  m_ShootSpeed: 30
+  m_FireRate: 0.2
