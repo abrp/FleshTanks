@@ -41,7 +41,7 @@ public class CustomMonobehavior : MonoBehaviour {
     //==============================================================================
 
     protected virtual void PreLoop() {
-
+        
     }
 
     protected virtual void GameLoop(){

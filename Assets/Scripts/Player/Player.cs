@@ -34,7 +34,7 @@ public class Player : CustomMonobehavior {
 
     private Vector3 m_PlayerStartPosition;
 
-    private bool m_IsAlive = false;
+    private bool m_IsAlive = true;
 
     private MeshRenderer[] meshRenderes;
 
@@ -106,10 +106,17 @@ public class Player : CustomMonobehavior {
     // Loops
     //==============================================================================
 
+    protected override void PreLoop()
+    {
+        base.PreLoop();
+        Debug.Log("preloop");
+
+    }
+
     protected override void GameLoop()
     {
         base.GameLoop();
-
+        Debug.Log("gameloop");
         if (m_IsAlive)
         {
             HandleMovement();
