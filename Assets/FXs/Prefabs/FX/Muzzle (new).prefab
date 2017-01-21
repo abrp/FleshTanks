@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 19856480}
   - component: {fileID: 19940558}
   m_Layer: 0
-  m_Name: BulletCollisionFX
+  m_Name: Muzzle (new)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24,7 +24,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 151820}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.2865265, y: -0.219591, z: 0}
+  m_LocalPosition: {x: -0.2865265, y: 1.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -42,7 +42,7 @@ ParticleSystem:
   looping: 0
   prewarm: 0
   playOnAwake: 1
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   startDelay:
     scalar: 0
     maxCurve:
@@ -82,15 +82,15 @@ ParticleSystem:
       m_PostInfinity: 2
       m_RotationOrder: 4
     minMaxState: 0
-  moveWithTransform: 1
+  moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 0
+  randomSeed: 2018339968
   InitialModule:
     serializedVersion: 3
     enabled: 1
     startLifetime:
-      scalar: 1
+      scalar: 0.1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -261,7 +261,7 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       minMaxState: 0
     startSize:
-      scalar: 0.5
+      scalar: 2
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -499,7 +499,7 @@ ParticleSystem:
     size3D: 0
     rotation3D: 0
     gravityModifier:
-      scalar: 0
+      scalar: NaN
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -541,7 +541,7 @@ ParticleSystem:
     serializedVersion: 3
     enabled: 1
     type: 0
-    radius: 0.3
+    radius: 0.2
     angle: 25
     length: 5
     boxX: 1
@@ -564,7 +564,7 @@ ParticleSystem:
     enabled: 1
     serializedVersion: 3
     rateOverTime:
-      scalar: 0
+      scalar: 10
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -933,7 +933,7 @@ ParticleSystem:
         ctime7: 0
         atime0: 0
         atime1: 3470
-        atime2: 9252
+        atime2: 8481
         atime3: 0
         atime4: 0
         atime5: 0
@@ -2693,7 +2693,7 @@ ParticleSystemRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -2733,16 +2733,20 @@ Prefab:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 0}
-      propertyPath: ColorModule.gradient.maxGradient.atime2
-      value: 9252
+      propertyPath: InitialModule.startLifetime.scalar
+      value: .100000001
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: ColorModule.gradient.maxGradient.key0.rgba
       value: 4278251007
       objectReference: {fileID: 0}
     - target: {fileID: 0}
-      propertyPath: ShapeModule.radius
+      propertyPath: InitialModule.startSize.scalar
       value: .300000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ShapeModule.radius
+      value: .200000003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
