@@ -56,6 +56,9 @@ public class Player : CustomMonobehavior {
     [SerializeField]
     private Animator m_FleshTankAnimator;
 
+    [SerializeField]
+    private bool m_IsDonePlaying = false;
+
     private Vector3 m_PlayerStartPosition;
 
     private bool m_IsAlive = true;
@@ -68,8 +71,20 @@ public class Player : CustomMonobehavior {
 
     private PlayerUI m_PlayerUI;
 
+    private int m_PlayerNumber;
+
+    private Rigidbody m_RigidBody;
+
     public bool IsAlive {
         get { return m_IsAlive; }
+    }
+
+    public bool IsDonePlaying {
+        get { return m_IsDonePlaying; }
+    }
+
+    public int PlayerNumber {
+        get { return m_PlayerNumber; }
     }
 
     //==============================================================================
@@ -80,6 +95,7 @@ public class Player : CustomMonobehavior {
         m_PlayerController = GetComponent<PlayerController>();
         m_PlayerStartPosition = transform.position;
         m_PlayerFlesh = GetComponentsInChildren<PlayerFlesh>();
+        m_RigidBody = GetComponent<Rigidbody>();
         m_PiecesOfFlesh = m_PlayerFlesh.Length;
 
         for (int i = 0; i < m_PlayerFlesh.Length; i++)
@@ -112,6 +128,9 @@ public class Player : CustomMonobehavior {
         m_PlayerUI = playerUI;
     }
 
+    public void SetPlayerNumber(int number) {
+        m_PlayerNumber = number;
+    }
 
     public void SetMoveSpeed(float f) {
         m_MoveSpeed = f;
@@ -130,10 +149,6 @@ public class Player : CustomMonobehavior {
     public void SetFireRate(float f)
     {
         m_FireRate = f;
-    }
-
-    public void SetPlayerColor() {
-
     }
 
     public void RemovePiece() {
@@ -183,10 +198,8 @@ public class Player : CustomMonobehavior {
 
     //==============================================================================
     private void HandleRespawn() {
-            if (XCI.GetButtonDown(XboxButton.A, m_XboxController)) {
-            if (m_CanRespawn) { 
-                Respawn();
-            }   
+        if (XCI.GetButtonUp(XboxButton.A, m_XboxController)) {
+            Respawn();
         }
     }
 
@@ -237,6 +250,11 @@ public class Player : CustomMonobehavior {
         }
     }
 
+    protected override void EndLoop()
+    {
+        m_PlayerController.Move(Vector3.zero);
+    }
+
     //==============================================================================
     // public
     //==============================================================================
@@ -246,16 +264,24 @@ public class Player : CustomMonobehavior {
         m_Lives--;
         m_PlayerUI.UpdateLives(m_Lives);
         m_IsAlive = false;
-        StartCoroutine(StartRespawn());
+
+        CenterTextManager.instance.StartTextType("Player " + m_PlayerNumber + " died", true);
+
+        m_RigidBody.useGravity = false;
+        m_RigidBody.velocity = Vector3.zero;
+
+        if (m_Lives == 0) {
+            m_IsDonePlaying = true;
+            CenterTextManager.instance.StartTextType("Player " + m_PlayerNumber + " is DONE!!", true);
+        }
+
+        GameManager.instance.CheckIfGameWon();
     }
 
     private void Respawn()
     {
         if (m_Lives > 0)
         {
-
-            Debug.Log("RESPAWN");
-
             transform.position = PlayerManager.instance.GetSpawnPosition();
             
             m_PiecesOfFlesh = m_PlayerFlesh.Length;
@@ -265,25 +291,10 @@ public class Player : CustomMonobehavior {
                 m_PlayerFlesh[i].ReFlesh();
             }
 
-            m_IsAlive = true;
+            m_RigidBody.useGravity = true;
 
+            CenterTextManager.instance.StartTextType("Player " + m_PlayerNumber + " respawned", true);
+            m_IsAlive = true;
         }
     }
-
-    //==============================================================================
-    // IEnumerator
-    //==============================================================================
-
-    IEnumerator StartRespawn() {
-        m_CanRespawn = false;
-
-        yield return new WaitForSeconds(m_RespawnTime);
-
-        // spawn some particles here
-
-        m_CanRespawn = true;
-        
-    }
-
-
 }

@@ -74,6 +74,10 @@ public class PlayerManager : MonoBehaviour {
         CheckSpawnInput();
     }
 
+    private void Start() {
+        m_SpawnPoints = FindObjectsOfType<SpawnPoint>();
+    }
+
     //==============================================================================
     // private
     //==============================================================================
@@ -81,24 +85,28 @@ public class PlayerManager : MonoBehaviour {
     private void CheckSpawnInput(){
         if (XCI.GetButtonDown(XboxButton.A, XboxController.First) && m_PlayerInPlay[0] == false) {
             Debug.Log("Spawn Player 1");
+            CenterTextManager.instance.StartTextType("Player 1 entered the game",true);
             m_PlayerInPlay[0] = true;
             m_PlayerUI[0].gameObject.SetActive(true);
             InstantiatePlayer(XboxController.First,0,m_PlayerUI[0]);
         }
         if (XCI.GetButtonDown(XboxButton.A, XboxController.Second ) && m_PlayerInPlay[1] == false){
             Debug.Log("Spawn Player 2");
+            CenterTextManager.instance.StartTextType("Player 2 entered the game", true);
             m_PlayerInPlay[1] = true;
             m_PlayerUI[1].gameObject.SetActive(true);
             InstantiatePlayer(XboxController.Second,1, m_PlayerUI[1]);
         }
         if (XCI.GetButtonDown(XboxButton.A, XboxController.Third) && m_PlayerInPlay[2] == false){
             Debug.Log("Spawn Player 3");
+            CenterTextManager.instance.StartTextType("Player 3 entered the game", true);
             m_PlayerInPlay[2] = true;
             m_PlayerUI[2].gameObject.SetActive(true);
             InstantiatePlayer(XboxController.Third,2, m_PlayerUI[2]);
         }
         if (XCI.GetButtonDown(XboxButton.A, XboxController.Fourth) && m_PlayerInPlay[3] == false){
             Debug.Log("Spawn Player 4");
+            CenterTextManager.instance.StartTextType("Player 4 entered the game", true);
             m_PlayerInPlay[3] = true;
             m_PlayerUI[3].gameObject.SetActive(true);
             InstantiatePlayer(XboxController.Fourth,3, m_PlayerUI[3]);
@@ -117,6 +125,7 @@ public class PlayerManager : MonoBehaviour {
         p.SetFireRate(m_FireRate);
         p.SetColor(playerColors[index]);
         p.SetPlayerUI(playerUI);
+        p.SetPlayerNumber(index + 1);
 
         // game state changed
         if (onInstantiatePlayerCallBack != null)
@@ -126,6 +135,11 @@ public class PlayerManager : MonoBehaviour {
     }
 
     public Vector3 GetSpawnPosition() {
+
+        while (!m_SpawnPoints[m_CurrentSpawnIndex].m_IsValid) {
+            IncrementSpawnIndex();
+        }
+
         Vector3 position = m_SpawnPoints[m_CurrentSpawnIndex].transform.position;
         ParticleManager.instance.InstantiateParticleSystem(m_SpawnParticleSystem, position);
         IncrementSpawnIndex();
