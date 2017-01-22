@@ -39,6 +39,9 @@ public class PlayerManager : MonoBehaviour {
     private int m_CurrentSpawnIndex;
 
     [SerializeField]
+    private AudioClip m_SpawnSound;
+
+    [SerializeField]
     private PlayerUI[] m_PlayerUI;
     
     //==============================================================================
@@ -127,6 +130,8 @@ public class PlayerManager : MonoBehaviour {
         p.SetPlayerUI(playerUI);
         p.SetPlayerNumber(index + 1);
 
+        SoundManager.instance.PlaySound(m_SpawnSound);
+
         // game state changed
         if (onInstantiatePlayerCallBack != null)
         {
@@ -139,6 +144,9 @@ public class PlayerManager : MonoBehaviour {
         while (!m_SpawnPoints[m_CurrentSpawnIndex].m_IsValid) {
             IncrementSpawnIndex();
         }
+
+
+        SoundManager.instance.PlaySound(m_SpawnSound);
 
         Vector3 position = m_SpawnPoints[m_CurrentSpawnIndex].transform.position;
         ParticleManager.instance.InstantiateParticleSystem(m_SpawnParticleSystem, position);
