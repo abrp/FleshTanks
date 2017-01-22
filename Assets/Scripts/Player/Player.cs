@@ -71,6 +71,8 @@ public class Player : CustomMonobehavior {
 
     private PlayerUI m_PlayerUI;
 
+    private int m_PlayerNumber;
+
     public bool IsAlive {
         get { return m_IsAlive; }
     }
@@ -119,6 +121,9 @@ public class Player : CustomMonobehavior {
         m_PlayerUI = playerUI;
     }
 
+    public void SetPlayerNumber(int number) {
+        m_PlayerNumber = number;
+    }
 
     public void SetMoveSpeed(float f) {
         m_MoveSpeed = f;
@@ -137,10 +142,6 @@ public class Player : CustomMonobehavior {
     public void SetFireRate(float f)
     {
         m_FireRate = f;
-    }
-
-    public void SetPlayerColor() {
-
     }
 
     public void RemovePiece() {
@@ -257,7 +258,7 @@ public class Player : CustomMonobehavior {
 
         if (m_Lives == 0) {
             m_IsDonePlaying = true;
-            
+            CenterTextManager.instance.StartTextType("He is DONE!", true);
         }
 
         GameManager.instance.CheckIfGameWon();
