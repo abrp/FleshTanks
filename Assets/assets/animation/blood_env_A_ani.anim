@@ -37,13 +37,25 @@ AnimationClip:
         tangentMode: 0
       - serializedVersion: 2
         time: 36.366665
-        value: {x: 14.9, y: 2.2707696, z: 11.9}
+        value: {x: 14.900001, y: 2.2707696, z: 11.900001}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
         time: 46.4
-        value: {x: 14.9, y: -1.0592299, z: 11.9}
+        value: {x: 14.900001, y: -1.0592299, z: 11.9}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 60
+        value: {x: 14.9, y: -1.053129, z: 11.9}
+        inSlope: {x: 0, y: 0.0011254529, z: 0}
+        outSlope: {x: 0, y: 0.0011254529, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 68.083336
+        value: {x: 14.9, y: 2.3, z: 11.9}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -217,6 +229,18 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
+        time: 60
+        value: -1.053129
+        inSlope: 0.0011254529
+        outSlope: 0.0011254529
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 68.083336
+        value: 2.3
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
         time: 90
         value: -1.0592299
         inSlope: 0
@@ -302,6 +326,12 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 136
+      - serializedVersion: 2
+        time: 68.083336
+        value: 14.9
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -314,6 +344,12 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 32.766666
+        value: 11.9
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 68.083336
         value: 11.9
         inSlope: 0
         outSlope: 0
