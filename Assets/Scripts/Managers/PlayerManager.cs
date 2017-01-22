@@ -9,6 +9,9 @@ public class PlayerManager : MonoBehaviour {
     // Fields
     //==============================================================================
 
+    [SerializeField]
+    private Color[] playerColors;
+
     public static PlayerManager instance = null;
 
     private int m_MinPlayers = 2;
@@ -36,8 +39,8 @@ public class PlayerManager : MonoBehaviour {
     private int m_CurrentSpawnIndex;
 
     [SerializeField]
-    private GameObject[] m_PlayerUI;
-
+    private PlayerUI[] m_PlayerUI;
+    
     //==============================================================================
     // Delegates
     //==============================================================================
@@ -79,26 +82,26 @@ public class PlayerManager : MonoBehaviour {
         if (XCI.GetButtonDown(XboxButton.A, XboxController.First) && m_PlayerInPlay[0] == false) {
             Debug.Log("Spawn Player 1");
             m_PlayerInPlay[0] = true;
-            m_PlayerUI[0].SetActive(true);
-            InstantiatePlayer(XboxController.First);
+            m_PlayerUI[0].gameObject.SetActive(true);
+            InstantiatePlayer(XboxController.First,0,m_PlayerUI[0]);
         }
         if (XCI.GetButtonDown(XboxButton.A, XboxController.Second ) && m_PlayerInPlay[1] == false){
             Debug.Log("Spawn Player 2");
             m_PlayerInPlay[1] = true;
-            m_PlayerUI[1].SetActive(true);
-            InstantiatePlayer(XboxController.Second);
+            m_PlayerUI[1].gameObject.SetActive(true);
+            InstantiatePlayer(XboxController.Second,1, m_PlayerUI[1]);
         }
         if (XCI.GetButtonDown(XboxButton.A, XboxController.Third) && m_PlayerInPlay[2] == false){
             Debug.Log("Spawn Player 3");
             m_PlayerInPlay[2] = true;
-            m_PlayerUI[2].SetActive(true);
-            InstantiatePlayer(XboxController.Third);
+            m_PlayerUI[2].gameObject.SetActive(true);
+            InstantiatePlayer(XboxController.Third,2, m_PlayerUI[2]);
         }
         if (XCI.GetButtonDown(XboxButton.A, XboxController.Fourth) && m_PlayerInPlay[3] == false){
             Debug.Log("Spawn Player 4");
             m_PlayerInPlay[3] = true;
-            m_PlayerUI[3].SetActive(true);
-            InstantiatePlayer(XboxController.Fourth);
+            m_PlayerUI[3].gameObject.SetActive(true);
+            InstantiatePlayer(XboxController.Fourth,3, m_PlayerUI[3]);
         }
     }
 
@@ -106,13 +109,14 @@ public class PlayerManager : MonoBehaviour {
     // private
     //==============================================================================
 
-    private void InstantiatePlayer(XboxController controller) {
+    private void InstantiatePlayer(XboxController controller, int index, PlayerUI playerUI) {
         Player p = Instantiate(m_PlayersPrefab, GetSpawnPosition(), Quaternion.identity);
         p.SetController(controller);
         p.SetShootSpeed(m_ShootSpeed);
         p.SetMoveSpeed(m_MoveSpeed);
         p.SetFireRate(m_FireRate);
-        p.SetPlayerColor();
+        p.SetColor(playerColors[index]);
+        p.SetPlayerUI(playerUI);
 
         // game state changed
         if (onInstantiatePlayerCallBack != null)

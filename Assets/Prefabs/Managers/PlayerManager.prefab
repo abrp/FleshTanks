@@ -51,6 +51,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e2c98cdd5606a49b00ad1dde14dee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerColors:
+  - {r: 0.08235294, g: 0.9725491, b: 0, a: 1}
+  - {r: 0.9333334, g: 0.6156863, b: 0.039215688, a: 1}
+  - {r: 0.6431373, g: 0.039215688, b: 0.9333334, a: 1}
+  - {r: 0, g: 0.9725491, b: 0.90196085, a: 1}
   m_PlayersPrefab: {fileID: 114061870032358686, guid: 26ab45602f6cd7c42befa443a6faacea,
     type: 2}
   m_SpawnParticleSystem: {fileID: 198894315377987126, guid: 41eaa383865890f4898106bd8af36fa4,
