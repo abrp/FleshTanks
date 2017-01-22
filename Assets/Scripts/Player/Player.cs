@@ -191,10 +191,8 @@ public class Player : CustomMonobehavior {
 
     //==============================================================================
     private void HandleRespawn() {
-            if (XCI.GetButtonDown(XboxButton.A, m_XboxController)) {
-            if (m_CanRespawn) { 
-                Respawn();
-            }   
+        if (XCI.GetButtonUp(XboxButton.A, m_XboxController)) {
+            Respawn();
         }
     }
 
@@ -254,7 +252,6 @@ public class Player : CustomMonobehavior {
         m_Lives--;
         m_PlayerUI.UpdateLives(m_Lives);
         m_IsAlive = false;
-        StartCoroutine(StartRespawn());
 
         if (m_Lives == 0) {
             m_IsDonePlaying = true;
@@ -268,7 +265,6 @@ public class Player : CustomMonobehavior {
     {
         if (m_Lives > 0)
         {
-
             transform.position = PlayerManager.instance.GetSpawnPosition();
             
             m_PiecesOfFlesh = m_PlayerFlesh.Length;
@@ -281,21 +277,4 @@ public class Player : CustomMonobehavior {
             m_IsAlive = true;
         }
     }
-
-    //==============================================================================
-    // IEnumerator
-    //==============================================================================
-
-    IEnumerator StartRespawn() {
-        m_CanRespawn = false;
-
-        yield return new WaitForSeconds(m_RespawnTime);
-
-        // spawn some particles here
-
-        m_CanRespawn = true;
-        
-    }
-
-
 }
