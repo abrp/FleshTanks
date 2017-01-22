@@ -56,6 +56,9 @@ public class Player : CustomMonobehavior {
     [SerializeField]
     private Animator m_FleshTankAnimator;
 
+    [SerializeField]
+    private bool m_IsDonePlaying = false;
+
     private Vector3 m_PlayerStartPosition;
 
     private bool m_IsAlive = true;
@@ -70,6 +73,10 @@ public class Player : CustomMonobehavior {
 
     public bool IsAlive {
         get { return m_IsAlive; }
+    }
+
+    public bool IsDonePlaying {
+        get { return m_IsDonePlaying; }
     }
 
     //==============================================================================
@@ -247,14 +254,19 @@ public class Player : CustomMonobehavior {
         m_PlayerUI.UpdateLives(m_Lives);
         m_IsAlive = false;
         StartCoroutine(StartRespawn());
+
+        if (m_Lives == 0) {
+            m_IsDonePlaying = true;
+            
+        }
+
+        GameManager.instance.CheckIfGameWon();
     }
 
     private void Respawn()
     {
         if (m_Lives > 0)
         {
-
-            Debug.Log("RESPAWN");
 
             transform.position = PlayerManager.instance.GetSpawnPosition();
             
@@ -266,7 +278,6 @@ public class Player : CustomMonobehavior {
             }
 
             m_IsAlive = true;
-
         }
     }
 

@@ -59,4 +59,28 @@ public class GameManager : MonoBehaviour {
             onStateChangeCallBack();
         }
     }
+
+    public void CheckIfGameWon() {
+        Player[] players = FindObjectsOfType<Player>();
+
+        Debug.Log("CHECK IF GAME WON");
+
+        if (players.Length >= 2) {
+
+            int numberOfPlayers = players.Length;
+
+            Debug.Log("numberOfActivePlayer: " + numberOfPlayers);
+
+            for (int i = 0; i < players.Length; i++)
+            {
+                if (players[i].IsDonePlaying) {
+                    numberOfPlayers--;
+                }
+            }
+
+            if (numberOfPlayers == 1) {
+                SetGameState(GameState.End);
+            }
+        }
+    }
 }
