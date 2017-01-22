@@ -6,7 +6,9 @@ public class AnnouncementManager : MonoBehaviour {
 
     [SerializeField]
     private AudioClip[] m_AudioClips;
-    //private AudioSource[] m_AudioSourcesGates;
+
+    [SerializeField]
+    private AudioClip[] m_AudioClipsGates;
 
     private AudioSource m_AudioSource;
 
@@ -36,5 +38,11 @@ public class AnnouncementManager : MonoBehaviour {
             timeToNextPlay = Random.Range(minDelayTime, maxDelayTime);
             
         }
+    }
+
+    void PlayGatesAreClosing()
+    {
+        m_AudioSource.clip = m_AudioClipsGates[Random.Range(0, m_AudioClipsGates.Length - 1)];
+        m_AudioSource.Play();
     }
 }

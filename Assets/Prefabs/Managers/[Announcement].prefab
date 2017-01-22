@@ -34,8 +34,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4511552525613446}
-  - component: {fileID: 114023287205746258}
   - component: {fileID: 82898402944893046}
+  - component: {fileID: 114702678054395348}
   m_Layer: 0
   m_Name: AnnouncementManager
   m_TagString: Untagged
@@ -150,7 +150,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114023287205746258
+--- !u!114 &114702678054395348
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -172,6 +172,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a65cadd4bbcadbb45b817f085abe4617, type: 3}
   - {fileID: 8300000, guid: 51480ce703a71834c9432753e11f3919, type: 3}
   - {fileID: 8300000, guid: c05cb122add3707438103aa53afcb5b9, type: 3}
+  m_AudioClipsGates:
   - {fileID: 8300000, guid: a9ea2cd3a6c3fbe40b73a893b6b12109, type: 3}
   - {fileID: 8300000, guid: 7d7f878f203132643bce014d3179f58f, type: 3}
   - {fileID: 8300000, guid: 29ab7dee7de28ca4b8c5d17d80277e6d, type: 3}
