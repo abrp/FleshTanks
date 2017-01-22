@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
@@ -45,6 +46,16 @@ public class GameManager : MonoBehaviour {
     public void Awake()
     {
         SetupSingleton();
+    }
+
+    private void Update()
+    {
+
+        if (m_CurrentGameState == GameState.End) {
+            if (Input.GetKeyDown(KeyCode.Space)) {
+                SceneManager.LoadScene(0);
+            }
+        }
     }
 
     //==============================================================================

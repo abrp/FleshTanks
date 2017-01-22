@@ -74,6 +74,10 @@ public class PlayerManager : MonoBehaviour {
         CheckSpawnInput();
     }
 
+    private void Start() {
+        m_SpawnPoints = FindObjectsOfType<SpawnPoint>();
+    }
+
     //==============================================================================
     // private
     //==============================================================================
@@ -131,6 +135,11 @@ public class PlayerManager : MonoBehaviour {
     }
 
     public Vector3 GetSpawnPosition() {
+
+        while (!m_SpawnPoints[m_CurrentSpawnIndex].m_IsValid) {
+            IncrementSpawnIndex();
+        }
+
         Vector3 position = m_SpawnPoints[m_CurrentSpawnIndex].transform.position;
         ParticleManager.instance.InstantiateParticleSystem(m_SpawnParticleSystem, position);
         IncrementSpawnIndex();
