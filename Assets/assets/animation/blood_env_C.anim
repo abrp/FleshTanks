@@ -42,6 +42,18 @@ AnimationClip:
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
+        time: 36.433334
+        value: {x: -23.2, y: 3.5, z: 20.4}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 46.316666
+        value: {x: -23.2, y: -0.7, z: 20.4}
+        inSlope: {x: 0, y: -0.10715624, z: 0}
+        outSlope: {x: 0, y: -0.10715624, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
         time: 90
         value: {x: -23.2, y: -2.2400026, z: 20.4}
         inSlope: {x: 0, y: 0, z: 0}
@@ -117,6 +129,18 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
+        time: 36.433334
+        value: 3.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 46.316666
+        value: -0.7
+        inSlope: -0.10715624
+        outSlope: -0.10715624
+        tangentMode: 136
+      - serializedVersion: 2
         time: 90
         value: -2.2400026
         inSlope: 0
@@ -138,6 +162,18 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 136
+      - serializedVersion: 2
+        time: 36.433334
+        value: -23.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 46.316666
+        value: -23.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -150,6 +186,18 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 21.266666
+        value: 20.4
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 36.433334
+        value: 20.4
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 46.316666
         value: 20.4
         inSlope: 0
         outSlope: 0
