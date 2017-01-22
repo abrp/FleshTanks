@@ -36,13 +36,14 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224797692224990688}
+  - component: {fileID: 114941691237159298}
   m_Layer: 5
   m_Name: PlayerFour
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1241147668721208
 GameObject:
   m_ObjectHideFlags: 0
@@ -51,13 +52,14 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224134578906873566}
+  - component: {fileID: 114791963585491300}
   m_Layer: 5
   m_Name: PlayerOne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1370129855559220
 GameObject:
   m_ObjectHideFlags: 0
@@ -66,13 +68,14 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224891675387404018}
+  - component: {fileID: 114325680932351670}
   m_Layer: 5
   m_Name: PlayerTwo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1401774721829516
 GameObject:
   m_ObjectHideFlags: 1
@@ -84,7 +87,7 @@ GameObject:
   - component: {fileID: 222216179335594194}
   - component: {fileID: 114510101716238594}
   m_Layer: 5
-  m_Name: Lives (4)
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -184,13 +187,14 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224653860654098556}
+  - component: {fileID: 114988815631502986}
   m_Layer: 5
   m_Name: PlayerThree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1698730867273286
 GameObject:
   m_ObjectHideFlags: 1
@@ -407,6 +411,19 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114325680932351670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1370129855559220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49895aba4f7841e4e8eec0b3ce733e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Lives: {fileID: 114909486731225694}
+  m_Score: {fileID: 114173987678472712}
 --- !u!114 &114510101716238594
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -603,6 +620,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114791963585491300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241147668721208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49895aba4f7841e4e8eec0b3ce733e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Lives: {fileID: 114969601448298074}
+  m_Score: {fileID: 114621660796302206}
 --- !u!114 &114886761160566262
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -669,6 +699,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 3
+--- !u!114 &114941691237159298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1202236687441772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49895aba4f7841e4e8eec0b3ce733e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Lives: {fileID: 114886761160566262}
+  m_Score: {fileID: 114510101716238594}
 --- !u!114 &114969601448298074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -702,6 +745,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 3
+--- !u!114 &114988815631502986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1695496221703294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49895aba4f7841e4e8eec0b3ce733e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Lives: {fileID: 114632688707654188}
+  m_Score: {fileID: 114197067532575764}
 --- !u!222 &222014500108903932
 CanvasRenderer:
   m_ObjectHideFlags: 1
