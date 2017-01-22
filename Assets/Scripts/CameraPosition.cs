@@ -10,6 +10,8 @@ public class CameraPosition : MonoBehaviour {
 
     private Camera m_Camera;
 
+    private float m_MinZoom = 8;
+
     private void Start() {
         PlayerManager.instance.onInstantiatePlayerCallBack += UpdatePlayer;
     }
@@ -35,7 +37,7 @@ public class CameraPosition : MonoBehaviour {
         float desiredZoom = Mathf.Max(m_Distances);
 
         m_Center = FindCentroid(m_Players);
-
+        if (desiredZoom > m_MinZoom) { 
         if (desiredZoom != transform.position.y)
         {
             /*mainCamera.transform.position = Vector3.MoveTowards(
@@ -46,6 +48,7 @@ public class CameraPosition : MonoBehaviour {
 
             this.transform.position = Vector3.MoveTowards(
                 this.transform.position, new Vector3(m_Center.x, desiredZoom, m_Center.z), desiredZoom * 0.1f);
+        }
         }
 
 

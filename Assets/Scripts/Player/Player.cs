@@ -13,6 +13,9 @@ public class Player : CustomMonobehavior {
     [SerializeField]
     private XboxController m_XboxController;
 
+    [SerializeField]
+    private ParticleSystem m_PlayerToken;
+
     private PlayerController m_PlayerController;
 
     [SerializeField]
@@ -63,6 +66,8 @@ public class Player : CustomMonobehavior {
 
     private bool m_CanRespawn = false;
 
+    private PlayerUI m_PlayerUI;
+
     public bool IsAlive {
         get { return m_IsAlive; }
     }
@@ -99,6 +104,12 @@ public class Player : CustomMonobehavior {
 
     public void AddScore(int point) {
         m_Score += point;
+        m_PlayerUI.UpdateScore(m_Score);
+    }
+
+    public void SetPlayerUI(PlayerUI playerUI)
+    {
+        m_PlayerUI = playerUI;
     }
 
 
@@ -109,6 +120,11 @@ public class Player : CustomMonobehavior {
     public void SetShootSpeed(float f)
     {
         m_ShootSpeed = f;
+    }
+
+    public void SetColor(Color color)
+    {
+        m_PlayerToken.startColor = color;
     }
 
     public void SetFireRate(float f)
@@ -162,36 +178,17 @@ public class Player : CustomMonobehavior {
             m_FleshTankAnimator.SetFloat("backForward", 0);
         }
 
-        
-
         m_PlayerController.Move(moveVelocity);
     }
 
     //==============================================================================
     private void HandleRespawn() {
             if (XCI.GetButtonDown(XboxButton.A, m_XboxController)) {
+            if (m_CanRespawn) { 
                 Respawn();
-            }
-    }
-
-    private void Respawn() {
-        if (m_Lives > 0) {
-
-            Debug.Log("RESPAWN");
-
-            transform.position = PlayerManager.instance.GetSpawnPosition();
-            m_IsAlive = true;
-            m_PiecesOfFlesh = m_PlayerFlesh.Length;
-
-            for (int i = 0; i < m_PlayerFlesh.Length; i++)
-            {
-                m_PlayerFlesh[i].ReFlesh();
-            }
-
+            }   
         }
     }
-
-
 
     //==============================================================================
     private void HandleShooting() {
@@ -236,7 +233,6 @@ public class Player : CustomMonobehavior {
         }
 
         else  {
-            
             HandleRespawn();
         }
     }
@@ -248,8 +244,30 @@ public class Player : CustomMonobehavior {
     public void Die() {
         HidePlayer();
         m_Lives--;
+        m_PlayerUI.UpdateLives(m_Lives);
         m_IsAlive = false;
         StartCoroutine(StartRespawn());
+    }
+
+    private void Respawn()
+    {
+        if (m_Lives > 0)
+        {
+
+            Debug.Log("RESPAWN");
+
+            transform.position = PlayerManager.instance.GetSpawnPosition();
+            
+            m_PiecesOfFlesh = m_PlayerFlesh.Length;
+
+            for (int i = 0; i < m_PlayerFlesh.Length; i++)
+            {
+                m_PlayerFlesh[i].ReFlesh();
+            }
+
+            m_IsAlive = true;
+
+        }
     }
 
     //==============================================================================
@@ -258,7 +276,6 @@ public class Player : CustomMonobehavior {
 
     IEnumerator StartRespawn() {
         m_CanRespawn = false;
-        yield return null;
 
         yield return new WaitForSeconds(m_RespawnTime);
 
@@ -266,6 +283,7 @@ public class Player : CustomMonobehavior {
 
         m_CanRespawn = true;
         
-
     }
+
+
 }
