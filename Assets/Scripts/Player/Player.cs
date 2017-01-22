@@ -28,12 +28,18 @@ public class Player : CustomMonobehavior {
     private float m_ShootSpeed = 5;
 
     [SerializeField]
+    private int m_Lives = 3;
+
+    [SerializeField]
     private float m_FireRate = 0.1f;
 
     private float m_NextFire = 0;
 
     [SerializeField]
     private float m_Ammo = 50;
+
+    [SerializeField]
+    private int m_Score = 0;
 
     [SerializeField]
     private Transform m_GunPoint;
@@ -57,6 +63,10 @@ public class Player : CustomMonobehavior {
 
     private bool m_CanRespawn = false;
 
+    public bool IsAlive {
+        get { return m_IsAlive; }
+    }
+
     //==============================================================================
     // MonoBehaviour
     //==============================================================================
@@ -66,6 +76,7 @@ public class Player : CustomMonobehavior {
         m_PlayerStartPosition = transform.position;
         m_PlayerFlesh = GetComponentsInChildren<PlayerFlesh>();
         m_PiecesOfFlesh = m_PlayerFlesh.Length;
+
         for (int i = 0; i < m_PlayerFlesh.Length; i++)
         {
             m_PlayerFlesh[i].SetPlayerReference(this);
@@ -85,6 +96,11 @@ public class Player : CustomMonobehavior {
     public void SetController(XboxController controller) {
         m_XboxController = controller;
     }
+
+    public void AddScore(int point) {
+        m_Score += point;
+    }
+
 
     public void SetMoveSpeed(float f) {
         m_MoveSpeed = f;
@@ -159,9 +175,23 @@ public class Player : CustomMonobehavior {
     }
 
     private void Respawn() {
+        if (m_Lives > 0) {
 
-        transform.position = PlayerManager.instance.GetSpawnPosition();
+            Debug.Log("RESPAWN");
+
+            transform.position = PlayerManager.instance.GetSpawnPosition();
+            m_IsAlive = true;
+            m_PiecesOfFlesh = m_PlayerFlesh.Length;
+
+            for (int i = 0; i < m_PlayerFlesh.Length; i++)
+            {
+                m_PlayerFlesh[i].ReFlesh();
+            }
+
+        }
     }
+
+
 
     //==============================================================================
     private void HandleShooting() {
@@ -177,17 +207,12 @@ public class Player : CustomMonobehavior {
                         m_HarpoonAnimator.SetTrigger("shoot");
                     }
 
-                    m_Gun.Shoot(m_ShootSpeed);
-                    m_Ammo--;
+                    m_Gun.Shoot(m_ShootSpeed,this);
+                    //m_Ammo--;
                     m_NextFire = Time.time + m_FireRate;
                 }
             }
         }
-    }
-
-    //==============================================================================
-    private void Handle() {
-
     }
 
     //==============================================================================
@@ -209,7 +234,9 @@ public class Player : CustomMonobehavior {
             HandleRotation();
             HandleShooting();
         }
-        else if(m_CanRespawn) {
+
+        else  {
+            
             HandleRespawn();
         }
     }
@@ -220,6 +247,7 @@ public class Player : CustomMonobehavior {
 
     public void Die() {
         HidePlayer();
+        m_Lives--;
         m_IsAlive = false;
         StartCoroutine(StartRespawn());
     }

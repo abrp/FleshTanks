@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: a8b2dc3cdc8ef834da74ec907d144bbe
+timeCreated: 1485023849
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: blockout
+    100002: //RootNode
+    100004: gate_01
+    100006: gate_02
+    100008: gate_03
+    100010: gate_door_01
+    100012: gate_door_03
+    100014: gate_door_04
+    100016: gate_door_06
+    100018: gate_wall_01
+    100020: gate_wall_01 1
+    100022: gate_wall_01 2
+    100024: gate_wall_02
+    100026: ground_1
+    100028: ground_2
+    100030: ground_3
+    100032: interior
+    100034: perimeter
+    100036: set
+    100038: wall_01
+    100040: walls_grp
+    400000: blockout
+    400002: //RootNode
+    400004: gate_01
+    400006: gate_02
+    400008: gate_03
+    400010: gate_door_01
+    400012: gate_door_03
+    400014: gate_door_04
+    400016: gate_door_06
+    400018: gate_wall_01
+    400020: gate_wall_01 1
+    400022: gate_wall_01 2
+    400024: gate_wall_02
+    400026: ground_1
+    400028: ground_2
+    400030: ground_3
+    400032: interior
+    400034: perimeter
+    400036: set
+    400038: wall_01
+    400040: walls_grp
+    2300000: gate_door_01
+    2300002: gate_door_03
+    2300004: gate_door_04
+    2300006: gate_door_06
+    2300008: gate_wall_01
+    2300010: gate_wall_01 1
+    2300012: gate_wall_01 2
+    2300014: gate_wall_02
+    2300016: ground_1
+    2300018: ground_2
+    2300020: ground_3
+    2300022: interior
+    2300024: perimeter
+    2300026: wall_01
+    3300000: gate_door_01
+    3300002: gate_door_03
+    3300004: gate_door_04
+    3300006: gate_door_06
+    3300008: gate_wall_01
+    3300010: gate_wall_01 1
+    3300012: gate_wall_01 2
+    3300014: gate_wall_02
+    3300016: ground_1
+    3300018: ground_2
+    3300020: ground_3
+    3300022: interior
+    3300024: perimeter
+    3300026: wall_01
+    4300000: gate_wall_01
+    4300002: gate_door_04
+    4300004: wall_01
+    4300006: gate_wall_01
+    4300008: gate_wall_02
+    4300010: gate_door_03
+    4300012: gate_door_06
+    4300014: gate_wall_01
+    4300016: gate_door_01
+    4300018: perimeter
+    4300020: interior
+    4300022: ground_3
+    4300024: ground_2
+    4300026: ground_1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

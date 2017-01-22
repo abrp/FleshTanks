@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -24,6 +25,8 @@ public class Projectile : MonoBehaviour {
 
     private float m_Speed = 1;
 
+    private Player m_Owner;
+
     float skin = 0.8f;
 
     public LayerMask collisionMask;
@@ -32,13 +35,18 @@ public class Projectile : MonoBehaviour {
         get { return m_Rigidbody; }
     }
 
-	void Start () {
+    internal void SetOwner(Player player)
+    {
+        m_Owner = player;
+    }
+
+    void Start () {
         m_Rigidbody = GetComponent<Rigidbody>();
     }
 
     private void CheckCollision()
     {
-
+        
         RaycastHit hit;
 
         Debug.DrawRay(transform.position, m_ForwardDirection, Color.red);
@@ -78,13 +86,25 @@ public class Projectile : MonoBehaviour {
         }
 
         if (hitsomething) {
-            PlayExplosions();
-            Destroy(gameObject);
+
+
             //Debug.Log(hit.collider.gameObject.layer);
-            if (hit.collider.GetComponent<PlayerFlesh>()) {
+            if (hit.collider.GetComponent<PlayerFlesh>())
+            {
                 PlayerFlesh playerFlesh = hit.collider.GetComponent<PlayerFlesh>();
-                playerFlesh.RemoveFlesh();
+                if (m_Owner != playerFlesh.Owner)
+                {
+                    playerFlesh.RemoveFlesh();
+                    m_Owner.AddScore(1);
+                    PlayExplosions();
+                    Destroy(gameObject);
+                }
             }
+            else {
+                PlayExplosions();
+                Destroy(gameObject);
+            }
+            
         }
 
         /*RaycastHit2D[] hit = {
@@ -145,7 +165,7 @@ public class Projectile : MonoBehaviour {
     }*/
 
     private void PlayExplosions() {
-        int chanceForExplosion = Random.Range(0, 5);
+        int chanceForExplosion = UnityEngine.Random.Range(0, 5);
         if (chanceForExplosion == 0)
         {
            

@@ -35,6 +35,9 @@ public class PlayerManager : MonoBehaviour {
 
     private int m_CurrentSpawnIndex;
 
+    [SerializeField]
+    private GameObject[] m_PlayerUI;
+
     //==============================================================================
     // Delegates
     //==============================================================================
@@ -76,21 +79,25 @@ public class PlayerManager : MonoBehaviour {
         if (XCI.GetButtonDown(XboxButton.A, XboxController.First) && m_PlayerInPlay[0] == false) {
             Debug.Log("Spawn Player 1");
             m_PlayerInPlay[0] = true;
+            m_PlayerUI[0].SetActive(true);
             InstantiatePlayer(XboxController.First);
         }
         if (XCI.GetButtonDown(XboxButton.A, XboxController.Second ) && m_PlayerInPlay[1] == false){
             Debug.Log("Spawn Player 2");
             m_PlayerInPlay[1] = true;
+            m_PlayerUI[1].SetActive(true);
             InstantiatePlayer(XboxController.Second);
         }
         if (XCI.GetButtonDown(XboxButton.A, XboxController.Third) && m_PlayerInPlay[2] == false){
             Debug.Log("Spawn Player 3");
             m_PlayerInPlay[2] = true;
+            m_PlayerUI[2].SetActive(true);
             InstantiatePlayer(XboxController.Third);
         }
         if (XCI.GetButtonDown(XboxButton.A, XboxController.Fourth) && m_PlayerInPlay[3] == false){
             Debug.Log("Spawn Player 4");
             m_PlayerInPlay[3] = true;
+            m_PlayerUI[3].SetActive(true);
             InstantiatePlayer(XboxController.Fourth);
         }
     }

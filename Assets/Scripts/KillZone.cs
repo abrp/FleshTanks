@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class KillZone : MonoBehaviour {
 
-
-
     private void OnTriggerEnter(Collider other) {
         if (other.GetComponent<Player>()) {
-            other.GetComponent<Player>().Die();
+            Player player = other.GetComponent<Player>();
+            if (player.IsAlive) {
+                player.Die();
+            }
         }
     }
 }
