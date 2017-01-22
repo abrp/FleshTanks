@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
@@ -14,6 +15,12 @@ public class GameManager : MonoBehaviour {
 
     [SerializeField]
     private GameState m_CurrentGameState = GameState.Pre;
+
+    [SerializeField]
+    private Text m_WinScreen;
+
+    [SerializeField]
+    private GameObject m_WinObject;
 
     //==============================================================================
     // Delegates
@@ -79,8 +86,23 @@ public class GameManager : MonoBehaviour {
             }
 
             if (numberOfPlayers == 1) {
+                m_WinObject.SetActive(true);
+                m_WinScreen.gameObject.SetActive(true);
+                int winner = GetWinner(players);
+                m_WinScreen.text = "Player " + winner + " has won the game";
                 SetGameState(GameState.End);
             }
         }
+    }
+
+    private int GetWinner(Player[] players) {
+        for (int i = 0; i < players.Length; i++)
+        {
+            if (players[i].IsDonePlaying == false) {
+                return players[i].PlayerNumber;
+            }
+        }
+
+        return 0;
     }
 }

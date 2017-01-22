@@ -73,12 +73,18 @@ public class Player : CustomMonobehavior {
 
     private int m_PlayerNumber;
 
+    private Rigidbody m_RigidBody;
+
     public bool IsAlive {
         get { return m_IsAlive; }
     }
 
     public bool IsDonePlaying {
         get { return m_IsDonePlaying; }
+    }
+
+    public int PlayerNumber {
+        get { return m_PlayerNumber; }
     }
 
     //==============================================================================
@@ -89,6 +95,7 @@ public class Player : CustomMonobehavior {
         m_PlayerController = GetComponent<PlayerController>();
         m_PlayerStartPosition = transform.position;
         m_PlayerFlesh = GetComponentsInChildren<PlayerFlesh>();
+        m_RigidBody = GetComponent<Rigidbody>();
         m_PiecesOfFlesh = m_PlayerFlesh.Length;
 
         for (int i = 0; i < m_PlayerFlesh.Length; i++)
@@ -243,6 +250,11 @@ public class Player : CustomMonobehavior {
         }
     }
 
+    protected override void EndLoop()
+    {
+        m_PlayerController.Move(Vector3.zero);
+    }
+
     //==============================================================================
     // public
     //==============================================================================
@@ -253,9 +265,14 @@ public class Player : CustomMonobehavior {
         m_PlayerUI.UpdateLives(m_Lives);
         m_IsAlive = false;
 
+        CenterTextManager.instance.StartTextType("Player " + m_PlayerNumber + " died", true);
+
+        m_RigidBody.useGravity = false;
+        m_RigidBody.velocity = Vector3.zero;
+
         if (m_Lives == 0) {
             m_IsDonePlaying = true;
-            CenterTextManager.instance.StartTextType("He is DONE!", true);
+            CenterTextManager.instance.StartTextType("Player " + m_PlayerNumber + " is DONE!!", true);
         }
 
         GameManager.instance.CheckIfGameWon();
@@ -274,6 +291,9 @@ public class Player : CustomMonobehavior {
                 m_PlayerFlesh[i].ReFlesh();
             }
 
+            m_RigidBody.useGravity = true;
+
+            CenterTextManager.instance.StartTextType("Player " + m_PlayerNumber + " respawned", true);
             m_IsAlive = true;
         }
     }

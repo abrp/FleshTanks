@@ -121,6 +121,7 @@ public class PlayerManager : MonoBehaviour {
         p.SetFireRate(m_FireRate);
         p.SetColor(playerColors[index]);
         p.SetPlayerUI(playerUI);
+        p.SetPlayerNumber(index + 1);
 
         // game state changed
         if (onInstantiatePlayerCallBack != null)

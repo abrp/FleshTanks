@@ -52,3 +52,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CurrentGameState: 1
+  m_WinScreen: {fileID: 0}
+  m_WinObject: {fileID: 0}
