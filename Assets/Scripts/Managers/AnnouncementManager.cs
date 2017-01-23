@@ -5,44 +5,98 @@ using UnityEngine;
 public class AnnouncementManager : MonoBehaviour {
 
     [SerializeField]
-    private AudioClip[] m_AudioClips;
+    private AudioClip[] m_AudioClips;           // General comments played when commentater have been silent for a while 
 
     [SerializeField]
-    private AudioClip[] m_AudioClipsGates;
+    private float m_minDelayTime = 5.0f;
+    [SerializeField]
+    private float m_maxDelayTime = 10.0f;
 
+    [SerializeField]
+    private AudioClip[] m_AudioClipsLostArm;    // Played when player lost an arm piece
+    [SerializeField]
+    private AudioClip[] m_AudioClipsLostLeg;    // Played when player lost a leg piece 
+    [SerializeField]
+    private AudioClip[] m_AudioClipsLostTorsoe;     // ... and you get the drift
+    [SerializeField]
+    private AudioClip[] m_AudioClipsLostHead;
+    [SerializeField]
+    private AudioClip[] m_AudioClipsGateIsClosing;    // Played when gates are closing
+    [SerializeField]
+    private AudioClip[] m_AudioClipsGateIsOpening;    // ... and when they open
+
+    private float m_timeToNextPlay;
     private AudioSource m_AudioSource;
-
-    private float minDelayTime = 3.0f;
-    private float maxDelayTime = 6.0f;
-    private float timeToNextPlay;
 
     // Use this for initialization
     void Start () {
 
         m_AudioSource = GetComponent<AudioSource>();
+        if(m_AudioSource == null)
+            Debug.LogError("The [Announcement] field needs an Audio Source");
 
         if (m_AudioClips.Length > 0)
         {
-            timeToNextPlay = Random.Range(minDelayTime, maxDelayTime);
+            m_timeToNextPlay = Random.Range(m_minDelayTime, m_maxDelayTime);
             m_AudioSource.clip = m_AudioClips[0];
         }
     }
 	
 	// Update is called once per frame
 	void Update () {
-        timeToNextPlay -= Time.deltaTime;
-        if (timeToNextPlay < 0f)
+        m_timeToNextPlay -= Time.deltaTime;
+        if (m_timeToNextPlay < 0f)
         {
-            m_AudioSource.clip = m_AudioClips[Random.Range(0, m_AudioClips.Length - 1)];
-            m_AudioSource.Play();
-            timeToNextPlay = Random.Range(minDelayTime, maxDelayTime);
-            
+            playRandomClip(m_AudioClips);
+            setDelayForNextGeneralPlay();
         }
+    }
+
+    //=============================
+    // TODO Functions to be played at events
+    //=============================
+
+    void PlayLostArm()
+    {
+        playRandomClip(m_AudioClipsLostArm);
+    }
+
+    void PlayLostLeg()
+    {
+        playRandomClip(m_AudioClipsLostLeg);
+    }
+
+    void PlayLostTorsoe()
+    {
+        playRandomClip(m_AudioClipsLostTorsoe);
+    }
+
+    void PlayLostHead()
+    {
+        playRandomClip(m_AudioClipsLostHead);
     }
 
     void PlayGatesAreClosing()
     {
-        m_AudioSource.clip = m_AudioClipsGates[Random.Range(0, m_AudioClipsGates.Length - 1)];
-        m_AudioSource.Play();
+        playRandomClip(m_AudioClipsGateIsClosing);
+    }
+
+    //=============================
+    // Privat
+    //=============================
+
+    private void playRandomClip(AudioClip[] ac)
+    {
+        if(ac != null && ac.Length > 0)
+        {
+            m_AudioSource.clip = ac[Random.Range(0, ac.Length - 1)];
+            m_AudioSource.Play();
+            setDelayForNextGeneralPlay();
+        }
+    }
+
+    private void setDelayForNextGeneralPlay()
+    {
+        m_timeToNextPlay = Random.Range(m_minDelayTime, m_maxDelayTime);
     }
 }
