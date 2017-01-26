@@ -248,6 +248,12 @@ public class Player : CustomMonobehavior {
         else  {
             HandleRespawn();
         }
+
+        if (m_IsDonePlaying) {
+            m_RigidBody.useGravity = false;
+            m_RigidBody.velocity = Vector3.zero;
+            m_PlayerController.Move(Vector3.zero);
+        }
     }
 
     protected override void EndLoop()
