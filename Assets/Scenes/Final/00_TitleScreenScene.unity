@@ -50,8 +50,8 @@ LightmapSettings:
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
-    m_EnableRealtimeLightmaps: 1
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 4
     m_Resolution: 2
@@ -809,7 +809,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243240423740697352, guid: 79a4fee1924e8734dafecd4f7e13e6df,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: cc7bcae8ab249984ea3e5830ced30dd1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: df383a7cdbfcafe43bb579dfd94a4d1c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
